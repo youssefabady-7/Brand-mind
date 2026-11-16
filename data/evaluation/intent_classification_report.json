@@ -1,0 +1,214 @@
+{
+  "baseline_majority": {
+    "model_name": "Majority-Class Baseline",
+    "accuracy": 0.1111,
+    "macro_f1": 0.0222,
+    "macro_precision": 0.0123,
+    "macro_recall": 0.1111
+  },
+  "baseline_tfidf_lr": {
+    "model_name": "TF-IDF + Logistic Regression",
+    "accuracy": 0.5926,
+    "macro_f1": 0.5848,
+    "macro_precision": 0.5969,
+    "macro_recall": 0.5926
+  },
+  "chosen_minilm_lr": {
+    "model_name": "MiniLM Embeddings + Logistic Regression",
+    "accuracy": 0.5802,
+    "macro_f1": 0.5667,
+    "macro_precision": 0.6226,
+    "macro_recall": 0.5802,
+    "validation_macro_f1": 0.4957,
+    "classification_report": {
+      "availability": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 9.0
+      },
+      "complaint": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 9.0
+      },
+      "exchange": {
+        "precision": 0.6,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.42857142857142855,
+        "support": 9.0
+      },
+      "human_support": {
+        "precision": 0.6923076923076923,
+        "recall": 1.0,
+        "f1-score": 0.8181818181818182,
+        "support": 9.0
+      },
+      "order_status": {
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1-score": 0.9473684210526315,
+        "support": 9.0
+      },
+      "product_info": {
+        "precision": 0.4166666666666667,
+        "recall": 0.5555555555555556,
+        "f1-score": 0.47619047619047616,
+        "support": 9.0
+      },
+      "refund": {
+        "precision": 0.6666666666666666,
+        "recall": 0.4444444444444444,
+        "f1-score": 0.5333333333333333,
+        "support": 9.0
+      },
+      "returns": {
+        "precision": 0.2857142857142857,
+        "recall": 0.2222222222222222,
+        "f1-score": 0.25,
+        "support": 9.0
+      },
+      "shipping": {
+        "precision": 0.375,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.48,
+        "support": 9.0
+      },
+      "accuracy": 0.5802469135802469,
+      "macro avg": {
+        "precision": 0.6225579975579976,
+        "recall": 0.5802469135802469,
+        "f1-score": 0.5667013493329284,
+        "support": 81.0
+      },
+      "weighted avg": {
+        "precision": 0.6225579975579976,
+        "recall": 0.5802469135802469,
+        "f1-score": 0.5667013493329284,
+        "support": 81.0
+      }
+    }
+  },
+  "baseline_llm": {
+    "model_name": "Few-Shot LLM Intent Detector",
+    "accuracy": 0.6173,
+    "macro_f1": 0.6098,
+    "macro_precision": 0.826,
+    "macro_recall": 0.6173
+  },
+  "confusion_matrix": {
+    "labels": [
+      "availability",
+      "complaint",
+      "exchange",
+      "human_support",
+      "order_status",
+      "product_info",
+      "refund",
+      "returns",
+      "shipping"
+    ],
+    "matrix": [
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        6,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        5,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        2,
+        2
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        6
+      ]
+    ]
+  }
+}

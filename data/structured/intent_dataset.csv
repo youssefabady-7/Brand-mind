@@ -1,0 +1,541 @@
+utterance_id,intent,text,language,seed_group,source
+UTT-0001,shipping,What are your shipping rates and delivery times for Cairo?,en,seed_ship_1,seed
+UTT-0002,shipping,How long does delivery take to Alexandria?,en,seed_ship_1,seed
+UTT-0003,shipping,Do you deliver to Giza and how much is the courier fee?,en,seed_ship_1,seed
+UTT-0004,shipping,What is the shipping cost to Upper Egypt governorates like Asyut?,en,seed_ship_2,seed
+UTT-0005,shipping,Can I get express same-day delivery in New Cairo?,en,seed_ship_2,seed
+UTT-0006,shipping,How much do I need to spend to get free shipping?,en,seed_ship_3,seed
+UTT-0007,shipping,Is shipping free for orders over 800 EGP?,en,seed_ship_3,seed
+UTT-0008,shipping,Do you ship to Hurghada and Sharm El Sheikh?,en,seed_ship_4,seed
+UTT-0009,shipping,Which courier company delivers your packages in Egypt?,en,seed_ship_4,seed
+UTT-0010,shipping,What are your delivery hours in Sheikh Zayed?,en,seed_ship_5,seed
+UTT-0011,shipping,Will the courier call me before arriving at my home?,en,seed_ship_5,seed
+UTT-0012,shipping,Can I change my delivery address after placing the order?,en,seed_ship_6,seed
+UTT-0013,shipping,Are shipping fees refundable if I return an item?,en,seed_ship_6,seed
+UTT-0014,shipping,How many days for Mansoura delivery?,en,seed_ship_7,seed
+UTT-0015,shipping,Do you ship internationally outside Egypt?,en,seed_ship_7,seed
+UTT-0016,shipping,What is the delivery fee for Delta cities like Tanta?,en,seed_ship_8,seed
+UTT-0017,shipping,Can the delivery guy wait while I check the package?,en,seed_ship_8,seed
+UTT-0018,shipping,Do you offer weekend delivery on Fridays?,en,seed_ship_9,seed
+UTT-0019,shipping,Why is shipping to Upper Egypt 75 EGP?,en,seed_ship_9,seed
+UTT-0020,shipping,Is there open-box delivery available with Bosta?,en,seed_ship_10,seed
+UTT-0021,shipping,هو التوصيل لإسكندرية بياخد أد إيه وبيتكلف كام؟,ar_eg,seed_ship_11,seed
+UTT-0022,shipping,مصاريف الشحن للقاهرة والجيزة كام يا فندم؟,ar_eg,seed_ship_11,seed
+UTT-0023,shipping,الشحن بياخد كام يوم لحد المنصورة؟,ar_eg,seed_ship_12,seed
+UTT-0024,shipping,هو فيه شحن مجاني لو طلبت كذا منتج؟,ar_eg,seed_ship_12,seed
+UTT-0025,shipping,الشحن مجاني من أول كام في لومورا؟,ar_eg,seed_ship_13,seed
+UTT-0026,shipping,بتوصلوا للصعيد زي قنا وأسيوط؟,ar_eg,seed_ship_13,seed
+UTT-0027,shipping,المندوب هيتصل بيا قبل ما يوصل ولا بيجي على طول؟,ar_eg,seed_ship_14,seed
+UTT-0028,shipping,عايز اعرف مصاريف الشحن لمدينة نصر كام؟,ar_eg,seed_ship_14,seed
+UTT-0029,shipping,ممكن استلم نفس اليوم في التجمع الخامس؟,ar_eg,seed_ship_15,seed
+UTT-0030,shipping,الشحن بياخد كام يوم في الشيخ زايد و6 أكتوبر؟,ar_eg,seed_ship_15,seed
+UTT-0031,shipping,هل فيه توصيل يوم الجمعة والسبت؟,ar_eg,seed_ship_16,seed
+UTT-0032,shipping,ممكن اغير عنوان الاستلام بعد ما طلبت؟,ar_eg,seed_ship_16,seed
+UTT-0033,shipping,بتشحنوا مع مين.. بوسطة ولا أرامكس؟,ar_eg,seed_ship_17,seed
+UTT-0034,shipping,هو الشحن لإيربان كيكس بكام للجيزة؟,ar_eg,seed_ship_17,seed
+UTT-0035,shipping,لو طلبت النهاردة هيوصلني إمتى في المعادي؟,ar_eg,seed_ship_18,seed
+UTT-0036,shipping,بياخد وقت أد إيه التوصيل للغردقة؟,ar_eg,seed_ship_18,seed
+UTT-0037,shipping,ينفع افتح الكرتونة واشوف الكوتشي قبل ما ادفع للمندوب؟,ar_eg,seed_ship_19,seed
+UTT-0038,shipping,الشحن كام لمحافظات القناة بورسعيد والإسماعيلية؟,ar_eg,seed_ship_19,seed
+UTT-0039,shipping,تكلفة التوصيل لسموحة كام؟,ar_eg,seed_ship_20,seed
+UTT-0040,shipping,هو الشحن مجاني فعلاً فوق 1500 جنيه؟,ar_eg,seed_ship_20,seed
+UTT-0041,shipping,كم تبلغ رسوم الشحن لمحافظة القاهرة؟,ar,seed_ship_21,seed
+UTT-0042,shipping,ما هي المدة المتوقعة لتوصيل الطلب إلى الإسكندرية؟,ar,seed_ship_21,seed
+UTT-0043,shipping,هل يتوفر شحن مجاني للطلبات الكبيرة؟,ar,seed_ship_22,seed
+UTT-0044,shipping,ما هي شركات الشحن المعتمدة لديكم في مصر؟,ar,seed_ship_22,seed
+UTT-0045,shipping,هل تقومون بالشحن إلى محافظات الصعيد؟,ar,seed_ship_23,seed
+UTT-0046,shipping,كم يستغرق الشحن لمحافظة أسوان؟,ar,seed_ship_23,seed
+UTT-0047,shipping,ما هي تكلفة الشحن إلى محافظات الدلتا؟,ar,seed_ship_24,seed
+UTT-0048,shipping,هل يمكن تحديد موعد محدد للتسليم مع مندوب الشحن؟,ar,seed_ship_24,seed
+UTT-0049,shipping,ما هي شروط الشحن السريع في نفس اليوم؟,ar,seed_ship_25,seed
+UTT-0050,shipping,هل تتوفر خدمة التوصيل خلال العطلات الرسمية؟,ar,seed_ship_25,seed
+UTT-0051,shipping,how much for bosta shipping to zamalek,en,seed_ship_26,llm_augmented
+UTT-0052,shipping,cairo delivery speed and prices please,en,seed_ship_26,llm_augmented
+UTT-0053,shipping,do u deliver to heliopolis within 24 hours?,en,seed_ship_27,llm_augmented
+UTT-0054,shipping,free delivery threshold in egypt egp,en,seed_ship_27,llm_augmented
+UTT-0055,shipping,how long will my parcel take to reach dokki?,en,seed_ship_28,llm_augmented
+UTT-0056,shipping,shipping fees for rural delta villages,en,seed_ship_28,llm_augmented
+UTT-0057,shipping,عاوز اعرف مصاريف التوصيل للمهندسين كام,ar_eg,seed_ship_29,llm_augmented
+UTT-0058,shipping,التوصيل لطنطا بياخد اد ايه وقت بالظبط,ar_eg,seed_ship_29,llm_augmented
+UTT-0059,shipping,هل متاح شحن سريع لنفس اليوم في القاهرة؟,ar_eg,seed_ship_30,llm_augmented
+UTT-0060,shipping,الشحن لمدينتي والشروق بيكلف كام؟,ar_eg,seed_ship_30,llm_augmented
+UTT-0061,returns,What is your official return policy and how many days do I have?,en,seed_ret_1,seed
+UTT-0062,returns,Can I return a skincare product if the seal is unbroken?,en,seed_ret_1,seed
+UTT-0063,returns,I bought a serum 8 days ago and want to return it unopened.,en,seed_ret_2,seed
+UTT-0064,returns,Can I return an opened cleanser if I only tried one pump?,en,seed_ret_2,seed
+UTT-0065,returns,What items are non-returnable in your store?,en,seed_ret_3,seed
+UTT-0066,returns,Are sample kits and gift cards eligible for returns?,en,seed_ret_3,seed
+UTT-0067,returns,How do I schedule a return courier pick-up?,en,seed_ret_4,seed
+UTT-0068,returns,Who pays the courier fee for change-of-mind returns?,en,seed_ret_4,seed
+UTT-0069,returns,Can I return sneakers if I tried them on indoor on carpet?,en,seed_ret_5,seed
+UTT-0070,returns,Can I return shoes that were worn outside once?,en,seed_ret_5,seed
+UTT-0071,returns,My item arrived damaged in transit. Can I return it for free?,en,seed_ret_6,seed
+UTT-0072,returns,What condition must apparel be in to be returned?,en,seed_ret_6,seed
+UTT-0073,returns,Can I return an order after 15 days of receiving it?,en,seed_ret_7,seed
+UTT-0074,returns,Do I need the original packaging box to return an item?,en,seed_ret_7,seed
+UTT-0075,returns,How does quality control inspect returned skincare products?,en,seed_ret_8,seed
+UTT-0076,returns,Can I return an item without an invoice or order number?,en,seed_ret_8,seed
+UTT-0077,returns,Is there a restocking fee for returns?,en,seed_ret_9,seed
+UTT-0078,returns,Can I return socks or underwear from UrbanKicks?,en,seed_ret_9,seed
+UTT-0079,returns,I received a defective pump bottle. How do I start a return?,en,seed_ret_10,seed
+UTT-0080,returns,What is the deadline for reporting damaged items on delivery?,en,seed_ret_10,seed
+UTT-0081,returns,عايز ارجع السيروم ده.. ايه الشروط وفترة السماح كام يوم؟,ar_eg,seed_ret_11,seed
+UTT-0082,returns,ينفع ارجع منتج عناية لو الغلاف بتاعه مقفول وماتفتحش؟,ar_eg,seed_ret_11,seed
+UTT-0083,returns,استلمت المرطب من 5 أيام وماتفتحش وعايز ارجعه للمتجر.,ar_eg,seed_ret_12,seed
+UTT-0084,returns,لو فتحت السيروم وجربت نقطة واحدة ينفع ارجعه؟,ar_eg,seed_ret_12,seed
+UTT-0085,returns,ايه المنتجات اللي مينفعش ترجع طبقاً للسياسة؟,ar_eg,seed_ret_13,seed
+UTT-0086,returns,ممكن ارجع علبة العينات ومجموعات السفر؟,ar_eg,seed_ret_13,seed
+UTT-0087,returns,ازاي بطلب مندوب ييجي يستلم المرتجع من البيت؟,ar_eg,seed_ret_14,seed
+UTT-0088,returns,مين بيدفع مصاريف شحن المرتجع لو غيرت رأيي؟,ar_eg,seed_ret_14,seed
+UTT-0089,returns,ينفع ارجع الكوتشي لو قسته في البيت على سجادة؟,ar_eg,seed_ret_15,seed
+UTT-0090,returns,نزلت بالكوتشي الشارع مرة واحدة بس.. ينفع ارجعه؟,ar_eg,seed_ret_15,seed
+UTT-0091,returns,المنتج جالي مكسور ومسرب في الشحن.. عايز ارجعه مجاناً.,ar_eg,seed_ret_16,seed
+UTT-0092,returns,هل الهدوم لازم تكون بالتيكت والعلبة الأصلية عشان ترجع؟,ar_eg,seed_ret_16,seed
+UTT-0093,returns,فات 16 يوم على الاستلام.. ينفع اعمل طلب ترجيع؟,ar_eg,seed_ret_17,seed
+UTT-0094,returns,ينفع ارجع الطلب من غير العلبة الكرتون بتاعته؟,ar_eg,seed_ret_17,seed
+UTT-0095,returns,ازاي بتتأكدوا ان السيروم ماتفتحش قبل الاسترجاع؟,ar_eg,seed_ret_18,seed
+UTT-0096,returns,ينفع ارجع الشرابات من إيربان كيكس؟,ar_eg,seed_ret_18,seed
+UTT-0097,returns,البخاخة بايظة خالص ومش بترش.. عايز ارجع العلبة.,ar_eg,seed_ret_19,seed
+UTT-0098,returns,ايه المدة المسموحة للإبلاغ عن منتج تالف؟,ar_eg,seed_ret_19,seed
+UTT-0099,returns,عايز اعمل طلب ارجاع لأوردر استلمته من اسبوع.,ar_eg,seed_ret_20,seed
+UTT-0100,returns,ليه رفضتوا ترجعوا السيروم بعد ما شيلت اللزقة الفضي؟,ar_eg,seed_ret_20,seed
+UTT-0101,returns,ما هي شروط استرجاع المنتجات لدى لومورا؟,ar,seed_ret_21,seed
+UTT-0102,returns,هل يحق لي استرجاع عبوة العناية غير المفتوحة؟,ar,seed_ret_21,seed
+UTT-0103,returns,ما هي المدة المحددة لتقديم طلب الاسترجاع بعد الاستلام؟,ar,seed_ret_22,seed
+UTT-0104,returns,هل يمكن استرجاع المنتجات المفتوحة لأسباب صحية؟,ar,seed_ret_22,seed
+UTT-0105,returns,ما هي الفئات غير القابلة للاسترجاع لديكم؟,ar,seed_ret_23,seed
+UTT-0106,returns,كيف يتم ترتيب استلام الشحنة المرتجعة من العميل؟,ar,seed_ret_23,seed
+UTT-0107,returns,هل يتحمل العميل رسوم شحن الإرجاع عند تغيير الرأي؟,ar,seed_ret_24,seed
+UTT-0108,returns,ما هي حالة الحذاء المقبولة للاسترجاع لدى إيربان كيكس؟,ar,seed_ret_24,seed
+UTT-0109,returns,وصلني منتج تالف أثناء الشحن.. كيف استرده؟,ar,seed_ret_25,seed
+UTT-0110,returns,هل يشترط وجود الفاتورة الرسمية لإتمام الإرجاع؟,ar,seed_ret_25,seed
+UTT-0111,returns,skincare return conditions for unused unopened bottle,en,seed_ret_26,llm_augmented
+UTT-0112,returns,can i return order LUM-1002 within 14 days?,en,seed_ret_26,llm_augmented
+UTT-0113,returns,how to return an item i bought last week,en,seed_ret_27,llm_augmented
+UTT-0114,returns,do you accept returns on open moisturizers?,en,seed_ret_27,llm_augmented
+UTT-0115,returns,shoes return policy clean soles original box,en,seed_ret_28,llm_augmented
+UTT-0116,returns,return courier fee deduction in egypt,en,seed_ret_28,llm_augmented
+UTT-0117,returns,عاوز ارجع طلب استلمته من 4 ايام مقفول تماما,ar_eg,seed_ret_29,llm_augmented
+UTT-0118,returns,سياسة الترجيع في لومورا كام يوم بعد الشحن,ar_eg,seed_ret_29,llm_augmented
+UTT-0119,returns,هل مسموح ارجع الكوتش لو فيه عيب صناعة؟,ar_eg,seed_ret_30,llm_augmented
+UTT-0120,returns,عايز اعمل ريتيرن لطلب استلمته امبارح,ar_eg,seed_ret_30,llm_augmented
+UTT-0121,exchange,Can I exchange my sneakers for a larger size?,en,seed_exc_1,seed
+UTT-0122,exchange,I ordered size EU 42 but need size EU 43 in the Apex Retro.,en,seed_exc_1,seed
+UTT-0123,exchange,How do size swaps work at UrbanKicks?,en,seed_exc_2,seed
+UTT-0124,exchange,Is size exchange free of shipping charges?,en,seed_exc_2,seed
+UTT-0125,exchange,I bought the Niacinamide serum but want to exchange for the Hyaluronic serum.,en,seed_exc_3,seed
+UTT-0126,exchange,Can I exchange an unopened cream for another product and pay the difference?,en,seed_exc_3,seed
+UTT-0127,exchange,What is the time window for requesting an item exchange?,en,seed_exc_4,seed
+UTT-0128,exchange,You sent me the wrong product. How do I exchange it for the right one?,en,seed_exc_4,seed
+UTT-0129,exchange,Can I exchange an item if the requested replacement size is out of stock?,en,seed_exc_5,seed
+UTT-0130,exchange,Can I exchange the oversized hoodie for a smaller medium size?,en,seed_exc_5,seed
+UTT-0131,exchange,Does the courier bring the new size and take the old size in one visit?,en,seed_exc_6,seed
+UTT-0132,exchange,I bought this dress 10 days ago and want to exchange it.,en,seed_exc_6,seed
+UTT-0133,exchange,Can I exchange a skincare item if I unsealed it?,en,seed_exc_7,seed
+UTT-0134,exchange,How many days does a size swap take to be delivered?,en,seed_exc_7,seed
+UTT-0135,exchange,Can I exchange cargo pants for a different color?,en,seed_exc_8,seed
+UTT-0136,exchange,What happens if the exchange item has a lower price?,en,seed_exc_8,seed
+UTT-0137,exchange,Can I do more than one complimentary size exchange per order?,en,seed_exc_9,seed
+UTT-0138,exchange,I received a defective item and want a brand new replacement.,en,seed_exc_9,seed
+UTT-0139,exchange,Can I exchange an online purchase at a physical store?,en,seed_exc_10,seed
+UTT-0140,exchange,How do I start a size exchange for order UK-2002?,en,seed_exc_10,seed
+UTT-0141,exchange,الكوتشي طلع ضيق عليا.. ينفع ابدله بمقاس اكبر 43؟,ar_eg,seed_exc_11,seed
+UTT-0142,exchange,عايز ابدل الهودي ده لمقاس لارج بدل ميديم.,ar_eg,seed_exc_11,seed
+UTT-0143,exchange,نظام تبديل المقاسات عندكم ايه في إيربان كيكس؟,ar_eg,seed_exc_12,seed
+UTT-0144,exchange,هو استبدال المقاس بمصاريف شحن ولا مجاناً؟,ar_eg,seed_exc_12,seed
+UTT-0145,exchange,اشتريت سيروم النياسيناميد وعايز ابدله بسيروم الهيالورونيك المقفول.,ar_eg,seed_exc_13,seed
+UTT-0146,exchange,ينفع ابدل كريم مقفول بمنتج تاني وادفع الفرق؟,ar_eg,seed_exc_13,seed
+UTT-0147,exchange,معايا كام يوم عشان اطلب استبدال منتج؟,ar_eg,seed_exc_14,seed
+UTT-0148,exchange,بعتولي منتج غلط في الأوردر وعايز ابدله بالصح.,ar_eg,seed_exc_14,seed
+UTT-0149,exchange,لو المقاس اللي عايزه خلصان هتبدلوه بإيه؟,ar_eg,seed_exc_15,seed
+UTT-0150,exchange,المندوب هيجيب المقاس الجديد وياخد القديم في نفس المشوار؟,ar_eg,seed_exc_15,seed
+UTT-0151,exchange,اشتريت من 10 ايام وعايز ابدل المقاس.. متاح؟,ar_eg,seed_exc_16,seed
+UTT-0152,exchange,ينفع ابدل مستحضر بشرة بعد ما شيلت الغلاف؟,ar_eg,seed_exc_16,seed
+UTT-0153,exchange,تبديل المقاس بياخد كام يوم على ما يوصلني؟,ar_eg,seed_exc_17,seed
+UTT-0154,exchange,ممكن ابدل البنطلون الكارجو بلون تاني؟,ar_eg,seed_exc_17,seed
+UTT-0155,exchange,لو المنتج الجديد أرخص.. هترجعولي الفرق ازاي؟,ar_eg,seed_exc_18,seed
+UTT-0156,exchange,مسموح بكام مرة تبديل مقاس لنفس الطلب؟,ar_eg,seed_exc_18,seed
+UTT-0157,exchange,المنتج وصلني فيه عيب وعايز استبدله بواحد سليم.,ar_eg,seed_exc_19,seed
+UTT-0158,exchange,عايز ابدل مقاس كوتشي في أوردر UK-2005.,ar_eg,seed_exc_19,seed
+UTT-0159,exchange,ازاي اقدم طلب سواب للمقاس على الموقع؟,ar_eg,seed_exc_20,seed
+UTT-0160,exchange,ممكن ابدل التيشيرت عشان طلع واسع جداً؟,ar_eg,seed_exc_20,seed
+UTT-0161,exchange,هل يمكنني استبدال الحذاء بمقاس أصغر؟,ar,seed_exc_21,seed
+UTT-0162,exchange,أرغب في استبدال المنتج بمنتج آخر وسداد فارق السعر.,ar,seed_exc_21,seed
+UTT-0163,exchange,ما هي شروط استبدال المقاسات لدى متجركم؟,ar,seed_exc_22,seed
+UTT-0164,exchange,هل تتوفر خدمة الاستبدال المجاني للمقاسات غير المناسبة؟,ar,seed_exc_22,seed
+UTT-0165,exchange,لقد استلمت مقاساً خاطئاً.. كيف أقوم باستبداله؟,ar,seed_exc_23,seed
+UTT-0166,exchange,ما هي المهلة المحددة لطلب استبدال السلع؟,ar,seed_exc_23,seed
+UTT-0167,exchange,هل يمكن استبدال عبوة تالفة بأخرى سليمة دون تكلفة؟,ar,seed_exc_24,seed
+UTT-0168,exchange,كيف تتم آلية التبادل المباشر مع مندوب الشحن؟,ar,seed_exc_24,seed
+UTT-0169,exchange,هل يشترط عدم استخدام المنتج نهائياً لإتمام الاستبدال؟,ar,seed_exc_25,seed
+UTT-0170,exchange,أريد تبديل لون الهودي إلى اللون الأسود.,ar,seed_exc_25,seed
+UTT-0171,exchange,sneaker size exchange 42 to 43 request,en,seed_exc_26,llm_augmented
+UTT-0172,exchange,can i swap this item for another product?,en,seed_exc_26,llm_augmented
+UTT-0173,exchange,how to change my shoe size with courier swap,en,seed_exc_27,llm_augmented
+UTT-0174,exchange,exchange window 14 days policy question,en,seed_exc_27,llm_augmented
+UTT-0175,exchange,received wrong shade want free exchange,en,seed_exc_28,llm_augmented
+UTT-0176,exchange,size swap for unworn sneakers urbankicks,en,seed_exc_28,llm_augmented
+UTT-0177,exchange,عايز ابدل المقاس بواحد اكبر لو سمحت,ar_eg,seed_exc_29,llm_augmented
+UTT-0178,exchange,هو التبديل بياخد كام يوم في اسكندرية؟,ar_eg,seed_exc_29,llm_augmented
+UTT-0179,exchange,ينفع استبدل السيروم بمرطب تاني سليم؟,ar_eg,seed_exc_30,llm_augmented
+UTT-0180,exchange,عايز ابدل كوتشي UK-2002 لمقاس 44,ar_eg,seed_exc_30,llm_augmented
+UTT-0181,refund,How will I receive my money back after returning an item?,en,seed_ref_1,seed
+UTT-0182,refund,When will the refund reflect in my bank account?,en,seed_ref_1,seed
+UTT-0183,refund,Do you refund Cash on Delivery orders via InstaPay?,en,seed_ref_2,seed
+UTT-0184,refund,Can I get my COD refund sent to Vodafone Cash mobile wallet?,en,seed_ref_2,seed
+UTT-0185,refund,How many days does quality inspection take before refund approval?,en,seed_ref_3,seed
+UTT-0186,refund,I returned my item 5 days ago but have not received my refund yet.,en,seed_ref_3,seed
+UTT-0187,refund,Why was 45 EGP deducted from my return refund?,en,seed_ref_4,seed
+UTT-0188,refund,Will I get a full refund including original shipping for damaged items?,en,seed_ref_4,seed
+UTT-0189,refund,Can my refund be issued as store credit or digital voucher?,en,seed_ref_5,seed
+UTT-0190,refund,My order was cancelled. When do I get my credit card refund?,en,seed_ref_5,seed
+UTT-0191,refund,Who do I contact if my bank refund is delayed beyond 10 days?,en,seed_ref_6,seed
+UTT-0192,refund,Can I get cash back directly from the courier at my door?,en,seed_ref_6,seed
+UTT-0193,refund,Do you refund via bank wire transfer across Egyptian banks?,en,seed_ref_7,seed
+UTT-0194,refund,I received an SMS that my refund was approved. Where is the money?,en,seed_ref_7,seed
+UTT-0195,refund,What proof of bank account is required for electronic refund?,en,seed_ref_8,seed
+UTT-0196,refund,Can I refund a gift card purchase?,en,seed_ref_8,seed
+UTT-0197,refund,How long does Visa refund take with National Bank of Egypt (NBE)?,en,seed_ref_9,seed
+UTT-0198,refund,Is refund processed immediately once the courier picks up the package?,en,seed_ref_9,seed
+UTT-0199,refund,What is the status of my refund for order LUM-1013?,en,seed_ref_10,seed
+UTT-0200,refund,Can you disburse my refund to my Orange Money wallet?,en,seed_ref_10,seed
+UTT-0201,refund,فلوسي هترجعلي ازاي بعد ما المندوب يستلم المرتجع؟,ar_eg,seed_ref_11,seed
+UTT-0202,refund,الفلوس بتاعة الاسترجاع بتنزل في الحساب البنكي بعد كام يوم؟,ar_eg,seed_ref_11,seed
+UTT-0203,refund,ينفع تحولوا لي فلوس الدفع عند الاستلام على انستاباي؟,ar_eg,seed_ref_12,seed
+UTT-0204,refund,ممكن استرداد الفلوس يكون على فودافون كاش؟,ar_eg,seed_ref_12,seed
+UTT-0205,refund,فحص المنتج المرتجع بياخد كام يوم في المخزن؟,ar_eg,seed_ref_13,seed
+UTT-0206,refund,رجعت الطلب من 5 أيام ولسه الفلوس منزلتش في حسابي ليه؟,ar_eg,seed_ref_13,seed
+UTT-0207,refund,ليه خصمتوا 45 جنيه مصاريف شحن من المبلغ المرتجع؟,ar_eg,seed_ref_14,seed
+UTT-0208,refund,هل الفلوس هترجع كاملة بالشحن لو المنتج وصلني بايظ؟,ar_eg,seed_ref_14,seed
+UTT-0209,refund,ينفع اخد المبلغ قسيمة شراء استخدمها بعدين؟,ar_eg,seed_ref_15,seed
+UTT-0210,refund,الاوردر اتلغى.. الفلوس هترجع للفيزا إمتى؟,ar_eg,seed_ref_15,seed
+UTT-0211,refund,فات 10 ايام وفلوس الفيزا منزلتش.. اكلم مين؟,ar_eg,seed_ref_16,seed
+UTT-0212,refund,هو المندوب ممكن يديني الفلوس كاش في ايدي وهو بيستلم؟,ar_eg,seed_ref_16,seed
+UTT-0213,refund,بتحولوا تحويل بنكي على البنك الأهلي وبنك مصر؟,ar_eg,seed_ref_17,seed
+UTT-0214,refund,جالي مسج ان الاسترداد اتقبل.. الفلوس هتوصلني امتى بالظبط؟,ar_eg,seed_ref_17,seed
+UTT-0215,refund,ايه البيانات المطلوبة للتحويل على انستاباي IPA؟,ar_eg,seed_ref_18,seed
+UTT-0216,refund,ينفع استرجع فلوس كارت الهدايا؟,ar_eg,seed_ref_18,seed
+UTT-0217,refund,استرداد فلوس فيزا CIB بياخد اد ايه وقت؟,ar_eg,seed_ref_19,seed
+UTT-0218,refund,الفلوس بتتحول اول ما المندوب ياخد الكرتونة ولا بعدها؟,ar_eg,seed_ref_19,seed
+UTT-0219,refund,عايز اعرف موقف الاسترداد المالي لأوردر LUM-1013.,ar_eg,seed_ref_20,seed
+UTT-0220,refund,ممكن احط رقم محفظة اورنج كاش يتبعتلي عليها؟,ar_eg,seed_ref_20,seed
+UTT-0221,refund,كيف يتم استرداد المبالغ المالية بعد إتمام الإرجاع؟,ar,seed_ref_21,seed
+UTT-0222,refund,كم يستغرق استرجاع المبلغ إلى البطاقة الائتمانية؟,ar,seed_ref_21,seed
+UTT-0223,refund,هل يتوفر تحويل مبالغ الدفع عند الاستلام عبر تطبيق انستاباي؟,ar,seed_ref_22,seed
+UTT-0224,refund,ما هي قنوات استرداد الأموال المتاحة لديكم في مصر؟,ar,seed_ref_22,seed
+UTT-0225,refund,لقد قمت بإرجاع الشحنة ولم أستلم مستحقاتي حتى الآن.,ar,seed_ref_23,seed
+UTT-0226,refund,ما هي الرسوم التي تخصم من المبلغ المسترد؟,ar,seed_ref_23,seed
+UTT-0227,refund,هل يتم رد مصاريف الشحن في حالة وجود تلف في المنتج؟,ar,seed_ref_24,seed
+UTT-0228,refund,تم إلغاء الطلب.. متى يسترد المبلغ للبطاقة المصرفية؟,ar,seed_ref_24,seed
+UTT-0229,refund,ما هي متطلبات التحويل البنكي الإلكتروني للاسترداد؟,ar,seed_ref_25,seed
+UTT-0230,refund,هل يمكن تحويل المستحقات إلى المحافظ الإلكترونية للهواتف؟,ar,seed_ref_25,seed
+UTT-0231,refund,when will my money be refunded after return,en,seed_ref_26,llm_augmented
+UTT-0232,refund,instapay refund timeline for cash on delivery,en,seed_ref_26,llm_augmented
+UTT-0233,refund,vodafone cash refund for returned items egypt,en,seed_ref_27,llm_augmented
+UTT-0234,refund,where is my refund money order LUM-1013,en,seed_ref_27,llm_augmented
+UTT-0235,refund,credit card refund delay 10 business days,en,seed_ref_28,llm_augmented
+UTT-0236,refund,deducted shipping cost from refund amount,en,seed_ref_28,llm_augmented
+UTT-0237,refund,فلوسي هترجع امتى على حسابي في البنك,ar_eg,seed_ref_29,llm_augmented
+UTT-0238,refund,طريقة استرداد الفلوس في لومورا عن طريق انستاباي,ar_eg,seed_ref_29,llm_augmented
+UTT-0239,refund,استرجاع الفلوس بياخد اد ايه وقت بالظبط,ar_eg,seed_ref_30,llm_augmented
+UTT-0240,refund,هل الفلوس بتتحول على فودافون كاش مباشرة؟,ar_eg,seed_ref_30,llm_augmented
+UTT-0241,product_info,What are the active ingredients in the Niacinamide 10% serum?,en,seed_prod_1,seed
+UTT-0242,product_info,How do I use the 5-Ceramide Barrier Repair Cream in my routine?,en,seed_prod_1,seed
+UTT-0243,product_info,Is the Vitamin C 15% serum safe to use in the morning with sunscreen?,en,seed_prod_2,seed
+UTT-0244,product_info,Can I combine Retinol with AHA BHA exfoliating toner?,en,seed_prod_2,seed
+UTT-0245,product_info,What products do you recommend for oily blemish-prone skin?,en,seed_prod_3,seed
+UTT-0246,product_info,Are Lumora skincare formulations non-comedogenic and vegan?,en,seed_prod_3,seed
+UTT-0247,product_info,What is the Period After Opening (PAO) for your serums?,en,seed_prod_4,seed
+UTT-0248,product_info,Is your Mineral Sheer Shield Sunscreen physical or chemical?,en,seed_prod_4,seed
+UTT-0249,product_info,How should I store serums during hot summer weather in Cairo?,en,seed_prod_5,seed
+UTT-0250,product_info,Are your products safe for pregnant and breastfeeding women?,en,seed_prod_5,seed
+UTT-0251,product_info,What material is the Shadow Drip Hoodie made of?,en,seed_prod_6,seed
+UTT-0252,product_info,What is the fabric weight and GSM of your Cairo Underground Tee?,en,seed_prod_6,seed
+UTT-0253,product_info,What leather is used in the Apex Retro 85 High sneakers?,en,seed_prod_7,seed
+UTT-0254,product_info,Do the Tactical Cargo Pants have water-repellent coating?,en,seed_prod_7,seed
+UTT-0255,product_info,How do I clean and maintain suede overlays on StreetRunner sneakers?,en,seed_prod_8,seed
+UTT-0256,product_info,Does the Mineral Sunscreen leave a white cast on darker skin tones?,en,seed_prod_8,seed
+UTT-0257,product_info,What is the concentration of Salicylic Acid in the Spot Gel?,en,seed_prod_9,seed
+UTT-0258,product_info,How often should I use the AHA BHA exfoliating toner per week?,en,seed_prod_9,seed
+UTT-0259,product_info,What are the benefits of Colloidal Oatmeal in the recovery balm?,en,seed_prod_10,seed
+UTT-0260,product_info,How do I perform a 24-hour patch test before using retinol?,en,seed_prod_10,seed
+UTT-0261,product_info,ايه المكونات الفعالة في سيروم النياسيناميد 10%؟,ar_eg,seed_prod_11,seed
+UTT-0262,product_info,ازاي استخدم كريم السيراميد في الروتين بتاعي بالليل؟,ar_eg,seed_prod_11,seed
+UTT-0263,product_info,سيروم فيتامين سي ينفع يتحط الصبح مع الصن بلوك؟,ar_eg,seed_prod_12,seed
+UTT-0264,product_info,ينفع احط ريتينول مع تونر التقشير في نفس اليوم؟,ar_eg,seed_prod_12,seed
+UTT-0265,product_info,ترشحولي ايه للبشرة الدهنية والمعرضة للحبوب في الصيف؟,ar_eg,seed_prod_13,seed
+UTT-0266,product_info,هل منتجات لومورا خالية من العطور والكحول؟,ar_eg,seed_prod_13,seed
+UTT-0267,product_info,صلاحية السيروم كام شهر بعد ما افتح العلبة؟,ar_eg,seed_prod_14,seed
+UTT-0268,product_info,الصن بلوك بتاعكم فيزيائي ولا كيميائي وبيجير في الوش ولا لأ؟,ar_eg,seed_prod_14,seed
+UTT-0269,product_info,احفظ السيروم في التلاجة ولا في حرارة الاوضة عادي في الصيف؟,ar_eg,seed_prod_15,seed
+UTT-0270,product_info,هل منتجاتكم آمنة للحوامل والمرضعات؟,ar_eg,seed_prod_15,seed
+UTT-0271,product_info,الهودي الأوفرسايز خامته قطن كام في المية وتقيل ولا خفيف؟,ar_eg,seed_prod_16,seed
+UTT-0272,product_info,تيشيرت كايرو اندر جراوند وزنه كام جرام GSM؟,ar_eg,seed_prod_16,seed
+UTT-0273,product_info,كوتشي الأبيكس ريترو جلد طبيعي ولا صناعي؟,ar_eg,seed_prod_17,seed
+UTT-0274,product_info,البنطلون الكارجو ضد المية وفيه كام جيب؟,ar_eg,seed_prod_17,seed
+UTT-0275,product_info,ازاي انظف الشمواه في كوتشي ستريت رانر من غير ما يبوظ؟,ar_eg,seed_prod_18,seed
+UTT-0276,product_info,الصن بلوك بيسيب علامات بيضا على الوش ولا شفاف؟,ar_eg,seed_prod_18,seed
+UTT-0277,product_info,جل الحبوب بيتحط على الوش كله ولا على الحباية بس؟,ar_eg,seed_prod_19,seed
+UTT-0278,product_info,تونر التقشير بيستخدم كام مرة في الاسبوع للبشرة الحساسة؟,ar_eg,seed_prod_19,seed
+UTT-0279,product_info,ايه فوايد دقيق الشوفان في بالم ترميم البشرة؟,ar_eg,seed_prod_20,seed
+UTT-0280,product_info,ازاي اعمل اختبار حساسية patch test لأول مرة؟,ar_eg,seed_prod_20,seed
+UTT-0281,product_info,ما هي المكونات النشطة في سيروم حمض الهيالورونيك؟,ar,seed_prod_21,seed
+UTT-0282,product_info,كيف يتم ترتيب طبقات العناية بالبشرة بطريقة صحيحة؟,ar,seed_prod_21,seed
+UTT-0283,product_info,هل يناسب مقشر أحماض الفواكه البشرة الجافة؟,ar,seed_prod_22,seed
+UTT-0284,product_info,ما هي درجات الحماية التي يوفرها واقي الشمس لديكم؟,ar,seed_prod_22,seed
+UTT-0285,product_info,هل تخلو تركيبات لومورا من المشتقات الحيوانية تماماً؟,ar,seed_prod_23,seed
+UTT-0286,product_info,ما هي إرشادات استخدام كريم العين بالببتيدات؟,ar,seed_prod_23,seed
+UTT-0287,product_info,كيف أتعامل مع تأكسد سيروم فيتامين سي إذا تغير لونه؟,ar_eg,seed_prod_24,seed
+UTT-0288,product_info,ما هي مواصفات نعل حذاء ستريت رانر المخصص للمدينة؟,ar,seed_prod_24,seed
+UTT-0289,product_info,ما هي خطوات الروتين الأربعة الأساسية لعلامة لومورا؟,ar,seed_prod_25,seed
+UTT-0290,product_info,هل يمكن استخدام جل الساليسيليك يومياً في الصباح؟,ar,seed_prod_25,seed
+UTT-0291,product_info,ingredients in lumora niacinamide zinc serum,en,seed_prod_26,llm_augmented
+UTT-0292,product_info,how to layer hyaluronic acid and ceramide cream,en,seed_prod_26,llm_augmented
+UTT-0293,product_info,is spf 50 physical mineral sunscreen suitable for sensitive skin,en,seed_prod_27,llm_augmented
+UTT-0294,product_info,pregnancy safe skincare list lumora egypt,en,seed_prod_27,llm_augmented
+UTT-0295,product_info,french terry cotton hoodie weight and specs,en,seed_prod_28,llm_augmented
+UTT-0296,product_info,how to clean outdoor sneakers with horsehair brush,en,seed_prod_28,llm_augmented
+UTT-0297,product_info,ايه روتين لومورا للبشرة الحساسة والمعرضة للاحمرار,ar_eg,seed_prod_29,llm_augmented
+UTT-0298,product_info,هل سيروم الريتينول ينفع للي بيستخدموه اول مرة؟,ar_eg,seed_prod_29,llm_augmented
+UTT-0299,product_info,مكونات كريم السيراميد لترميم حاجز البشرة,ar_eg,seed_prod_30,llm_augmented
+UTT-0300,product_info,نوع قماش تيشيرت إيربان كيكس قطن مصري ولا ايه,ar_eg,seed_prod_30,llm_augmented
+UTT-0301,availability,Is the Niacinamide 10% serum currently in stock?,en,seed_avail_1,seed
+UTT-0302,availability,Do you have the Apex Retro 85 sneaker in size EU 43?,en,seed_avail_1,seed
+UTT-0303,availability,When will the 5-Ceramide Barrier Repair Cream be restocked?,en,seed_avail_2,seed
+UTT-0304,availability,Is size L available in the Shadow Drip Heavyweight Hoodie?,en,seed_avail_2,seed
+UTT-0305,availability,Are there any units left of the Mineral Sheer Shield Sunscreen?,en,seed_avail_3,seed
+UTT-0306,availability,Do you have size 44 in stock for StreetRunner V2?,en,seed_avail_3,seed
+UTT-0307,availability,Is the Lumora Discovery Sample Set sold out?,en,seed_avail_4,seed
+UTT-0308,availability,How many bottles of Vitamin C serum are remaining in warehouse?,en,seed_avail_4,seed
+UTT-0309,availability,Do you have the Tactical Modular Cargo Pants in waist size 32?,en,seed_avail_5,seed
+UTT-0310,availability,Is the Centella Calming Relief Mist in stock for immediate dispatch?,en,seed_avail_5,seed
+UTT-0311,availability,Can I join a waiting list for sold out sneaker drops?,en,seed_avail_6,seed
+UTT-0312,availability,Is the Gentle Amino Gel Cleanser available in the 150ml size?,en,seed_avail_6,seed
+UTT-0313,availability,Are the Urban Crew Cushioned Socks in stock right now?,en,seed_avail_7,seed
+UTT-0314,availability,When will size EU 45 be available in the Velocity Tech Low?,en,seed_avail_7,seed
+UTT-0315,availability,Is the Squalane Eye Cream out of stock?,en,seed_avail_8,seed
+UTT-0316,availability,Can I preorder an out-of-stock item before restock?,en,seed_avail_8,seed
+UTT-0317,availability,Do you have the Cairo Underground Graphic Tee in size XL?,en,seed_avail_9,seed
+UTT-0318,availability,Is the Retinol 0.3% Renewal Emulsion currently available?,en,seed_avail_9,seed
+UTT-0319,availability,Will the limited edition drops be restocked this season?,en,seed_avail_10,seed
+UTT-0320,availability,Do you have any sheet masks packs left?,en,seed_avail_10,seed
+UTT-0321,availability,سيروم النياسيناميد متوفر عندكم في المخزن دلوقتي؟,ar_eg,seed_avail_11,seed
+UTT-0322,availability,فيه مقاس 43 في كوتشي الأبيكس ريترو 85؟,ar_eg,seed_avail_11,seed
+UTT-0323,availability,كريم السيراميد هيتوفر تاني إمتى عشان مخلص؟,ar_eg,seed_avail_12,seed
+UTT-0324,availability,مقاس لارج متاح في الهودي الأوفرسايز؟,ar_eg,seed_avail_12,seed
+UTT-0325,availability,الصن بلوك موجود وجاهز للشحن فوراً ولا خلصان؟,ar_eg,seed_avail_13,seed
+UTT-0326,availability,عندكم مقاس 44 في كوتشي ستريت رانر؟,ar_eg,seed_avail_13,seed
+UTT-0327,availability,مجموعة العينات لومورا ديسكفري خلصت ولا لسه موجودة؟,ar_eg,seed_avail_14,seed
+UTT-0328,availability,فاضل كام علبة من سيروم فيتامين سي في المخزن؟,ar_eg,seed_avail_14,seed
+UTT-0329,availability,البنطلون الكارجو فيه مقاس 32 متاح؟,ar_eg,seed_avail_15,seed
+UTT-0330,availability,ميست السينتيلا متوفر للشحن السريع النهاردة؟,ar_eg,seed_avail_15,seed
+UTT-0331,availability,ينفع اسجل في قايمة انتظار لو مقاسي مخلص في السنيكرز؟,ar_eg,seed_avail_16,seed
+UTT-0332,availability,الغسول متوفر بحجم 150 مل حالياً؟,ar_eg,seed_avail_16,seed
+UTT-0333,availability,الشرابات الرياضية متوفرة في إيربان كيكس؟,ar_eg,seed_avail_17,seed
+UTT-0334,availability,كوتشي فيلوستي تيك مقاس 45 هينزل إمتى تاني؟,ar_eg,seed_avail_17,seed
+UTT-0335,availability,كريم العين بالببتيدات موجود ولا خلص؟,ar_eg,seed_avail_18,seed
+UTT-0336,availability,ممكن احجز المنتج قبل ما يتوفر في المخزن؟,ar_eg,seed_avail_18,seed
+UTT-0337,availability,تيشيرت كايرو اندر جراوند متاح بمقاس اكس لارج؟,ar_eg,seed_avail_19,seed
+UTT-0338,availability,سيروم الريتينول متوفر للطلب دلوقتي؟,ar_eg,seed_avail_19,seed
+UTT-0339,availability,هل الكولكشن الليمتد هينزل منه كميات تانية؟,ar_eg,seed_avail_20,seed
+UTT-0340,availability,شيت ماسك الترطيب فيه منه متاح في الموقع؟,ar_eg,seed_avail_20,seed
+UTT-0341,availability,هل يتوفر سيروم النياسيناميد للشراء الفوري؟,ar,seed_avail_21,seed
+UTT-0342,availability,ما هي المقاسات المتوفرة حالياً لحذاء أبيكس ريترو؟,ar,seed_avail_21,seed
+UTT-0343,availability,متى سيتم إعادة توفير كريم السيراميد في المخزون؟,ar,seed_avail_22,seed
+UTT-0344,availability,هل المقاس L متاح في سترة الهودي ذات القلنسوة؟,ar,seed_avail_22,seed
+UTT-0345,availability,هل كميات واقي الشمس متوفرة للشحن المباشر؟,ar,seed_avail_23,seed
+UTT-0346,availability,هل حذاء ستريت رانر متاح بمقاس 44؟,ar,seed_avail_23,seed
+UTT-0347,availability,هل نفدت كمية مجموعة العينات التجريبية؟,ar,seed_avail_24,seed
+UTT-0348,availability,ما هي الألوان المتاحة لبنطال الكارجو التكتيكي؟,ar,seed_avail_24,seed
+UTT-0349,availability,هل يتوفر غسول الوجه بحجم 150 مل؟,ar,seed_avail_25,seed
+UTT-0350,availability,هل يمكن إخطاري عند إعادة توفير مقاسي المنتهي؟,ar,seed_avail_25,seed
+UTT-0351,availability,is niacinamide serum in stock right now,en,seed_avail_26,llm_augmented
+UTT-0352,availability,check stock for apex retro 85 size 43,en,seed_avail_26,llm_augmented
+UTT-0353,availability,do you have ceramide cream in warehouse?,en,seed_avail_27,llm_augmented
+UTT-0354,availability,shadow drip hoodie size XL availability,en,seed_avail_27,llm_augmented
+UTT-0355,availability,mineral sunscreen stock level check,en,seed_avail_28,llm_augmented
+UTT-0356,availability,is size 42 available for streetrunner sneaker?,en,seed_avail_28,llm_augmented
+UTT-0357,availability,عايز اعرف مقاس 43 موجود في السنيكرز ولا لأ,ar_eg,seed_avail_29,llm_augmented
+UTT-0358,availability,هل سيروم الهيالورونيك متوفر في لومورا؟,ar_eg,seed_avail_29,llm_augmented
+UTT-0359,availability,الكوتش ده متاح منه مقاس 41 النهاردة؟,ar_eg,seed_avail_30,llm_augmented
+UTT-0360,availability,كريم الليل بالريتينول متوفر ولا خلصان؟,ar_eg,seed_avail_30,llm_augmented
+UTT-0361,order_status,Where is my order LUM-1001? I want to track it.,en,seed_ord_1,seed
+UTT-0362,order_status,Can you check the current delivery status of order LUM-1002?,en,seed_ord_1,seed
+UTT-0363,order_status,Has my order UK-2001 been dispatched from your central warehouse?,en,seed_ord_2,seed
+UTT-0364,order_status,What is the courier tracking number for order UK-2003?,en,seed_ord_2,seed
+UTT-0365,order_status,Why is order LUM-1004 still showing out for delivery?,en,seed_ord_3,seed
+UTT-0366,order_status,Can you track order LUM-1009 in Mansoura?,en,seed_ord_3,seed
+UTT-0367,order_status,I placed an order yesterday LUM-1005. Is it still processing?,en,seed_ord_4,seed
+UTT-0368,order_status,When was order LUM-1006 delivered to Heliopolis?,en,seed_ord_4,seed
+UTT-0369,order_status,Check tracking link for order UK-2002 in Sheikh Zayed please.,en,seed_ord_5,seed
+UTT-0370,order_status,Did order LUM-1010 arrive at my address in Zamalek?,en,seed_ord_5,seed
+UTT-0371,order_status,Can you confirm if order LUM-1013 was cancelled?,en,seed_ord_6,seed
+UTT-0372,order_status,My order number is UK-2004. What is the courier update?,en,seed_ord_6,seed
+UTT-0373,order_status,Track order LUM-1012 for Laila Ashraf please.,en,seed_ord_7,seed
+UTT-0374,order_status,Has order UK-2007 been shipped yet or still pending dispatch?,en,seed_ord_7,seed
+UTT-0375,order_status,What items were included inside order LUM-1008?,en,seed_ord_8,seed
+UTT-0376,order_status,Can you track my package UK-2005 sent to Nasr City?,en,seed_ord_8,seed
+UTT-0377,order_status,Is order UK-2006 arriving today in Dokki?,en,seed_ord_9,seed
+UTT-0378,order_status,Check status of order LUM-1011 delivered in Alexandria.,en,seed_ord_9,seed
+UTT-0379,order_status,Where is the delivery courier with my order UK-2003 right now?,en,seed_ord_10,seed
+UTT-0380,order_status,I want to track order LUM-1015 in Giza Haram area.,en,seed_ord_10,seed
+UTT-0381,order_status,عايز اعرف اوردر رقم LUM-1001 وصل لفين؟,ar_eg,seed_ord_11,seed
+UTT-0382,order_status,ممكن تتبع شحنة أوردر LUM-1002 وتشوفلي المندوب خرج ولا لأ؟,ar_eg,seed_ord_11,seed
+UTT-0383,order_status,الاوردر بتاعي UK-2001 خرج من المخزن ولا لسه؟,ar_eg,seed_ord_12,seed
+UTT-0384,order_status,ايه رقم البوليصة وتتبع الشحنة لأوردر UK-2003؟,ar_eg,seed_ord_12,seed
+UTT-0385,order_status,اوردر LUM-1004 مكتوب مع المندوب هيوصل امتى النهاردة في المعادي؟,ar_eg,seed_ord_13,seed
+UTT-0386,order_status,ممكن تشوفلي اوردر LUM-1009 في المنصورة اخباره ايه؟,ar_eg,seed_ord_13,seed
+UTT-0387,order_status,عملت اوردر امبارح برقم LUM-1005 ولسه جاري التجهيز ليه؟,ar_eg,seed_ord_14,seed
+UTT-0388,order_status,هو اوردر LUM-1006 اتسلم فعلاً في مصر الجديدة؟,ar_eg,seed_ord_14,seed
+UTT-0389,order_status,شوفلي تتبع شحنة UK-2002 في الشيخ زايد كده يا فندم.,ar_eg,seed_ord_15,seed
+UTT-0390,order_status,اوردر LUM-1010 وصل الزمالك ولا لسه مجاش؟,ar_eg,seed_ord_15,seed
+UTT-0391,order_status,هو اوردر LUM-1013 اتلغى ولا لسه شغال؟,ar_eg,seed_ord_16,seed
+UTT-0392,order_status,رقم الأوردر بتاعي UK-2004 في اسكندرية.. المندوب وصل فين؟,ar_eg,seed_ord_16,seed
+UTT-0393,order_status,ممكن تتبع اوردر ليلى اشرف LUM-1012 لو سمحت؟,ar_eg,seed_ord_17,seed
+UTT-0394,order_status,اوردر UK-2007 اتشحن ولا لسه في المخزن في الانتظار؟,ar_eg,seed_ord_17,seed
+UTT-0395,order_status,عايز اتأكد من المنتجات اللي في اوردر LUM-1008.,ar_eg,seed_ord_18,seed
+UTT-0396,order_status,ممكن تتبع طردي UK-2005 لمدينة نصر؟,ar_eg,seed_ord_18,seed
+UTT-0397,order_status,الاوردر بتاعي UK-2006 هيوصل الدقي النهاردة ولا بكرة؟,ar_eg,seed_ord_19,seed
+UTT-0398,order_status,طمني على اوردر LUM-1011 في إسكندرية وصل ولا لأ.,ar_eg,seed_ord_19,seed
+UTT-0399,order_status,المندوب اللي معاه اوردر UK-2003 معاه رقمي؟,ar_eg,seed_ord_20,seed
+UTT-0400,order_status,عايز اتابع شحنة أوردر LUM-1015 في الهرم بالجيزة.,ar_eg,seed_ord_20,seed
+UTT-0401,order_status,أين طلبي رقم LUM-1001؟ أرغب في تتبعه فوراً.,ar,seed_ord_21,seed
+UTT-0402,order_status,ما هي حالة الشحن الحالية للطلب LUM-1002؟,ar,seed_ord_21,seed
+UTT-0403,order_status,هل تم تسليم الطلب UK-2001 لشركة الشحن؟,ar,seed_ord_22,seed
+UTT-0404,order_status,أرجو تزويدي برقم تتبع بوليصة الشحن للطلب UK-2003.,ar,seed_ord_22,seed
+UTT-0405,order_status,لماذا لم يصل طلبي رقم LUM-1004 حتى اللحظة؟,ar,seed_ord_23,seed
+UTT-0406,order_status,هل يمكن التحقق من وصول الشحنة LUM-1009 إلى محافظة الدقهلية؟,ar,seed_ord_23,seed
+UTT-0407,order_status,ما سبب تأخر تجهيز الطلب رقم LUM-1005؟,ar,seed_ord_24,seed
+UTT-0408,order_status,أرغب في الاستعلام عن حالة تسليم الطلب LUM-1006.,ar,seed_ord_24,seed
+UTT-0409,order_status,هل تم إلغاء الطلب رقم LUM-1013 بشكل نهائي؟,ar,seed_ord_25,seed
+UTT-0410,order_status,أريد معرفة تفاصيل المنتجات المسجلة في الطلب LUM-1008.,ar,seed_ord_25,seed
+UTT-0411,order_status,track order LUM-1001 bosta courier tracking,en,seed_ord_26,llm_augmented
+UTT-0412,order_status,where is my parcel LUM-1004 out for delivery,en,seed_ord_26,llm_augmented
+UTT-0413,order_status,check status of sneaker order UK-2001,en,seed_ord_27,llm_augmented
+UTT-0414,order_status,is order UK-2003 arriving in new cairo today?,en,seed_ord_27,llm_augmented
+UTT-0415,order_status,tracking link for order LUM-1010 in zamalek,en,seed_ord_28,llm_augmented
+UTT-0416,order_status,can you verify delivery date for LUM-1011?,en,seed_ord_28,llm_augmented
+UTT-0417,order_status,تتبع اوردر LUM-1002 في الشيخ زايد,ar_eg,seed_ord_29,llm_augmented
+UTT-0418,order_status,الاوردر رقم UK-2002 وصل لحد فين دلوقتي,ar_eg,seed_ord_29,llm_augmented
+UTT-0419,order_status,عايز اعرف رقم البوليصة لاوردر LUM-1006,ar_eg,seed_ord_30,llm_augmented
+UTT-0420,order_status,طرد UK-2005 خرج للتسليم النهاردة ولا لسه؟,ar_eg,seed_ord_30,llm_augmented
+UTT-0421,complaint,I used the toner and got severe burning and facial redness all over!,en,seed_comp_1,seed
+UTT-0422,complaint,"Your courier was extremely rude, threw the box on the ground, and insulted my family!",en,seed_comp_1,seed
+UTT-0423,complaint,I was charged twice on my credit card for order LUM-1002. This is fraud!,en,seed_comp_2,seed
+UTT-0424,complaint,The serum bottle arrived smashed into pieces and leaked all over the package.,en,seed_comp_2,seed
+UTT-0425,complaint,I have been waiting for two weeks and keep getting empty promises. I will report you to the Consumer Protection Agency!,en,seed_comp_3,seed
+UTT-0426,complaint,This product gave me a terrible allergic reaction and swollen eyes. I need urgent help!,en,seed_comp_3,seed
+UTT-0427,complaint,You sent me a completely wrong item and the courier refused to let me inspect it.,en,seed_comp_4,seed
+UTT-0428,complaint,Worst customer service ever! Nobody answers on WhatsApp or phone.,en,seed_comp_4,seed
+UTT-0429,complaint,The sneakers arrived with dirty scuffed soles and creased leather. You sent me used shoes!,en,seed_comp_5,seed
+UTT-0430,complaint,Your delivery driver demanded extra tip money and refused to hand over my order without it.,en,seed_comp_5,seed
+UTT-0431,complaint,I want to file a formal complaint against your warehouse fulfillment team.,en,seed_comp_6,seed
+UTT-0432,complaint,The Vitamin C serum you sent is dark oxidized brown and smells expired.,en,seed_comp_6,seed
+UTT-0433,complaint,My money was deducted from my account but you claim no order was placed. Thieves!,en,seed_comp_7,seed
+UTT-0434,complaint,The hoodie zipper broke on the very first day. Extremely cheap quality for 1450 EGP!,en,seed_comp_7,seed
+UTT-0435,complaint,I am going to file a police report and sue your company for consumer fraud.,en,seed_comp_8,seed
+UTT-0436,complaint,My skin broke out into red cystic bumps after one application of your moisturizer.,en,seed_comp_8,seed
+UTT-0437,complaint,The courier forged my signature and marked the parcel as delivered when I was at work!,en,seed_comp_9,seed
+UTT-0438,complaint,You promised next-day delivery and it has been 6 days. Total scam!,en,seed_comp_9,seed
+UTT-0439,complaint,I demand to speak to your head of operations immediately about this disaster.,en,seed_comp_10,seed
+UTT-0440,complaint,The packaging was unsealed and tampered with before arrival. Very unsafe!,en,seed_comp_10,seed
+UTT-0441,complaint,استخدمت التونر وحصل لي حرقان فظيع في وشي ووشي وارم ومحمر ولازم تحلوا الكارثة دي!,ar_eg,seed_comp_11,seed
+UTT-0442,complaint,المندوب كان قليل الأدب جداً ورمى الكرتونة على الأرض في الشارع وشتم!,ar_eg,seed_comp_11,seed
+UTT-0443,complaint,الفيزا اتسحب منها المبلغ مرتين في أوردر LUM-1002.. دي سرقة ونصب علني!,ar_eg,seed_comp_12,seed
+UTT-0444,complaint,إزازة السيروم وصلتني متدغدغة في الكرتونة وكل السيروم مسرب وواقع.,ar_eg,seed_comp_12,seed
+UTT-0445,complaint,بقالي أسبوعين مستني وكل شوية توعدوني ببكرة.. هعمل فيكم بلاغ في حماية المستهلك!,ar_eg,seed_comp_13,seed
+UTT-0446,complaint,المنتج عملي حساسية مفرطة وعيني ورمت ولازم دكتور حالا!,ar_eg,seed_comp_13,seed
+UTT-0447,complaint,بعتولي منتج غلط خالص والمندوب رفض يخليني افتح الكرتونة اشوفه.,ar_eg,seed_comp_14,seed
+UTT-0448,complaint,أسوأ خدمة عملاء اتعاملت معاها ومحدش بيرد على الواتساب نهائي!,ar_eg,seed_comp_14,seed
+UTT-0449,complaint,الكوتشي جالي بنعل وسخ ومستعمل وجلده متكسر.. انتوا باعتين لي كوتش مستعمل؟,ar_eg,seed_comp_15,seed
+UTT-0450,complaint,المندوب بيطلب بقشيش عافية وقالي مش هديك الأوردر إلا لما تدفع زيادة!,ar_eg,seed_comp_15,seed
+UTT-0451,complaint,عايز اقدم شكوى رسمية في إدارة التجهيز والشحن بتاعتكم.,ar_eg,seed_comp_16,seed
+UTT-0452,complaint,سيروم فيتامين سي لونه بني غامق ومأكسد وريحته بايزة خالص.,ar_eg,seed_comp_16,seed
+UTT-0453,complaint,الفلوس اتخصمت من حسابي وبتنكروا اني طلبت.. حرامية!,ar_eg,seed_comp_17,seed
+UTT-0454,complaint,سوستة الهودي باظت من اول لبسة وخامته رديئة جداً مقارنة بسعره 1450 جنيه!,ar_eg,seed_comp_17,seed
+UTT-0455,complaint,والله هفضحكم في كل الجروبات وهرفع قضية نصب في مباحث الإنترنت.,ar_eg,seed_comp_18,seed
+UTT-0456,complaint,وشي كله حبوب والتهابات بعد ما دهنت الكريم امبارح بالليل.,ar_eg,seed_comp_18,seed
+UTT-0457,complaint,المندوب زور توقيعي وعمل اني استلمت وانا كنت في الشغل ومستلمتش حاجة!,ar_eg,seed_comp_19,seed
+UTT-0458,complaint,وعدتوني يوصل تاني يوم وبقالي 6 ايام مستني.. دي بهدلة!,ar_eg,seed_comp_19,seed
+UTT-0459,complaint,عايز اكلم مدير الفرع والعمليات حالاً على المهزلة دي.,ar_eg,seed_comp_20,seed
+UTT-0460,complaint,اللزقة الفضي كانت مقطوعة والعلبة مفتوحة قبل ما استلمها.. منتج مش آمن!,ar_eg,seed_comp_20,seed
+UTT-0461,complaint,لقد تسبب المنتج في التهاب جلدي حاد وتورم في الوجه.,ar,seed_comp_21,seed
+UTT-0462,complaint,سلوك مندوب التوصيل كان غير لائق تماماً وسأقوم بتقديم شكوى رسمية.,ar,seed_comp_21,seed
+UTT-0463,complaint,تم خصم قيمة الطلب مرتين من بطاقتي الائتمانية دون وجه حق.,ar,seed_comp_22,seed
+UTT-0464,complaint,وصلتني الشحنة محطمة وسائلة داخل صندوق التغليف.,ar,seed_comp_22,seed
+UTT-0465,complaint,سأتوجه بشكوى عاجلة إلى جهاز حماية المستهلك المصري للمطالبة بحقي.,ar,seed_comp_23,seed
+UTT-0466,complaint,أصبت بحساسية شديدة إثر استخدام المقشر وأطالب بالتعويض.,ar,seed_comp_23,seed
+UTT-0467,complaint,تم استلام صنف مغاير تماماً للطلب الذي دفعته.,ar,seed_comp_24,seed
+UTT-0468,complaint,تجاهل مستمر من فريق خدمة العملاء وعدم الرد على الاتصالات.,ar,seed_comp_24,seed
+UTT-0469,complaint,الحذاء المستلم مستعمل وآثار الأتربة ظاهرة على النعل.,ar,seed_comp_25,seed
+UTT-0470,complaint,المنتج منتهي الصلاحية ومتغير اللون والرائحة.. هذا غش تجاري.,ar,seed_comp_25,seed
+UTT-0471,complaint,severe allergic skin reaction from toner swollen face,en,seed_comp_26,llm_augmented
+UTT-0472,complaint,double charged for order LUM-1002 fraud dispute,en,seed_comp_26,llm_augmented
+UTT-0473,complaint,courier was abusive and damaged package,en,seed_comp_27,llm_augmented
+UTT-0474,complaint,reporting to consumer protection agency egypt,en,seed_comp_27,llm_augmented
+UTT-0475,complaint,sent me used shoes with dirty soles urbankicks,en,seed_comp_28,llm_augmented
+UTT-0476,complaint,broken glass bottle leaked in packaging,en,seed_comp_28,llm_augmented
+UTT-0477,complaint,وشي التهب واحمر جدا وعايز دكتور لومورا,ar_eg,seed_comp_29,llm_augmented
+UTT-0478,complaint,الفيزا اتخصم منها مرتين ونصابين,ar_eg,seed_comp_29,llm_augmented
+UTT-0479,complaint,هعمل بلاغ في حماية المستهلك عشان الاوردر متأخر,ar_eg,seed_comp_30,llm_augmented
+UTT-0480,complaint,المندوب قليل الادب وشتم ومستلمتش,ar_eg,seed_comp_30,llm_augmented
+UTT-0481,human_support,I want to talk to a human customer service representative right now.,en,seed_hum_1,seed
+UTT-0482,human_support,Can you connect me with a live person please?,en,seed_hum_1,seed
+UTT-0483,human_support,Stop answering with a bot. Put me through to an agent.,en,seed_hum_2,seed
+UTT-0484,human_support,I need to speak to your customer care supervisor.,en,seed_hum_2,seed
+UTT-0485,human_support,Transfer me to a real human employee immediately.,en,seed_hum_3,seed
+UTT-0486,human_support,Is there a human available on chat today?,en,seed_hum_3,seed
+UTT-0487,human_support,Please give me the phone number of a customer support agent.,en,seed_hum_4,seed
+UTT-0488,human_support,I do not want automated AI responses. Get me a human.,en,seed_hum_4,seed
+UTT-0489,human_support,Let me speak to your manager right now.,en,seed_hum_5,seed
+UTT-0490,human_support,Can an agent call me back on my phone number?,en,seed_hum_5,seed
+UTT-0491,human_support,Connect me with someone who can actually make decisions.,en,seed_hum_6,seed
+UTT-0492,human_support,I need human assistance with a complicated VIP order.,en,seed_hum_6,seed
+UTT-0493,human_support,Switch this chat to a live support representative.,en,seed_hum_7,seed
+UTT-0494,human_support,Are all your customer service agents busy or can one join this chat?,en,seed_hum_7,seed
+UTT-0495,human_support,I refuse to speak with automated systems. Human please.,en,seed_hum_8,seed
+UTT-0496,human_support,Can I speak with a skincare specialist directly?,en,seed_hum_8,seed
+UTT-0497,human_support,Can you escalate this conversation to human tier 2 support?,en,seed_hum_9,seed
+UTT-0498,human_support,Where can I find a real human to talk to in Cairo?,en,seed_hum_9,seed
+UTT-0499,human_support,Please have someone from customer service email or text me.,en,seed_hum_10,seed
+UTT-0500,human_support,"Operator please, connect me to an operator.",en,seed_hum_10,seed
+UTT-0501,human_support,عايز اكلم بني آدم من خدمة العملاء حالاً.,ar_eg,seed_hum_11,seed
+UTT-0502,human_support,ممكن تحولني لحد شغال معاكم مش شات بوت؟,ar_eg,seed_hum_11,seed
+UTT-0503,human_support,كفاية ردود آليه.. هاتلي موظف اكلمه دلوقتي.,ar_eg,seed_hum_12,seed
+UTT-0504,human_support,محتاج اكلم المشرف او مدير خدمة العملاء ضروري.,ar_eg,seed_hum_12,seed
+UTT-0505,human_support,حولني لشخص حقيقي يفهمني لو سمحت.,ar_eg,seed_hum_13,seed
+UTT-0506,human_support,فيه حد بشري متاح يتكلم معايا دلوقتي؟,ar_eg,seed_hum_13,seed
+UTT-0507,human_support,اديني رقم تليفون حد من خدمة العملاء اكلمه صوت.,ar_eg,seed_hum_14,seed
+UTT-0508,human_support,مش عايز روبوت يرد عليا.. وصلني بموظف.,ar_eg,seed_hum_14,seed
+UTT-0509,human_support,خليني اكلم المدير بتاعكم حالاً.,ar_eg,seed_hum_15,seed
+UTT-0510,human_support,ممكن حد من خدمة العملاء يكلمني فون على رقمي؟,ar_eg,seed_hum_15,seed
+UTT-0511,human_support,وصلني بحد يقدر يحل المشكلة وياخد قرار.,ar_eg,seed_hum_16,seed
+UTT-0512,human_support,عندي مشكلة معقدة ومحتاج دعم بشري متخصص.,ar_eg,seed_hum_16,seed
+UTT-0513,human_support,حول الشات ده لحد من التيم بتاعكم في المكتب.,ar_eg,seed_hum_17,seed
+UTT-0514,human_support,هو مفيش ولا موظف شغال عندكم في الشات؟,ar_eg,seed_hum_17,seed
+UTT-0515,human_support,رافض اتعامل مع ذكاء اصطناعي.. عايز انسان.,ar_eg,seed_hum_18,seed
+UTT-0516,human_support,ممكن اكلم اخصائية بشرة من لومورا مباشرة؟,ar_eg,seed_hum_18,seed
+UTT-0517,human_support,صعد المحادثة دي لمستوى أعلى من خدمة العملاء.,ar_eg,seed_hum_19,seed
+UTT-0518,human_support,ازاي اتكلم مع شخص حقيقي في مصر؟,ar_eg,seed_hum_19,seed
+UTT-0519,human_support,خلوا حد من الدعم الفني يبعتلي على الواتساب.,ar_eg,seed_hum_20,seed
+UTT-0520,human_support,اوبريتور لو سمحت.. حولني للاوبريتور.,ar_eg,seed_hum_20,seed
+UTT-0521,human_support,أريد التحدث مع موظف خدمة عملاء بشري على الفور.,ar,seed_hum_21,seed
+UTT-0522,human_support,يرجى تحويلي إلى ممثل دعم حقيقي لمساعدتي.,ar,seed_hum_21,seed
+UTT-0523,human_support,توقف عن الردود الآلية.. أريد التحدث مع شخص مسؤول.,ar,seed_hum_22,seed
+UTT-0524,human_support,أطلب التحدث مع مدير خدمة العملاء بشكل عاجل.,ar,seed_hum_22,seed
+UTT-0525,human_support,هل يمكن لممثل خدمة العملاء الاتصال بي هاتفياً؟,ar,seed_hum_23,seed
+UTT-0526,human_support,أرغب في التواصل مع أخصائي استشاري في العناية بالبشرة.,ar,seed_hum_23,seed
+UTT-0527,human_support,أرجو تصعيد الشكوى إلى الإدارة العليا فوراً.,ar,seed_hum_24,seed
+UTT-0528,human_support,لا أرغب في استخدام الرد الآلي.. أحتاج دعماً بشرياً.,ar,seed_hum_24,seed
+UTT-0529,human_support,كيف يمكنني التحدث مباشرة مع فريق إدارة الطلبات؟,ar,seed_hum_25,seed
+UTT-0530,human_support,يرجى تزويدي برقم الخط الساخن للتحدث مع ممثل الدعم.,ar,seed_hum_25,seed
+UTT-0531,human_support,talk to a real human representative please,en,seed_hum_26,llm_augmented
+UTT-0532,human_support,connect me with live human agent not a bot,en,seed_hum_26,llm_augmented
+UTT-0533,human_support,speak to customer support manager right now,en,seed_hum_27,llm_augmented
+UTT-0534,human_support,i need human assistance with my urgent order,en,seed_hum_27,llm_augmented
+UTT-0535,human_support,transfer to human operator immediately,en,seed_hum_28,llm_augmented
+UTT-0536,human_support,requesting phone call from support representative,en,seed_hum_28,llm_augmented
+UTT-0537,human_support,عايز بني ادم يرد عليا مش روبوت,ar_eg,seed_hum_29,llm_augmented
+UTT-0538,human_support,كلمني حد من الدعم الفني فورا,ar_eg,seed_hum_29,llm_augmented
+UTT-0539,human_support,حولني لموظف خدمة عملاء حالا,ar_eg,seed_hum_30,llm_augmented
+UTT-0540,human_support,مش عايز رد الي هاتلي انسان اتكلم معاه,ar_eg,seed_hum_30,llm_augmented
