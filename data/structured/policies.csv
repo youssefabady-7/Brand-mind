@@ -1,0 +1,7 @@
+policy_id,brand_id,policy_type,allowed_days,condition_summary,exceptions,escalation_trigger,source
+POL-LUM-01,lumora,return,14,Unopened and seal intact in original packaging,Defective pump or damaged bottle on arrival,Allergic reaction or severe irritation,seed
+POL-LUM-02,lumora,exchange,14,Unopened and seal intact in original packaging,Defective item or wrong item shipped,Allergic reaction or severe irritation,seed
+POL-LUM-03,lumora,refund,14,Disbursed to original card or COD via InstaPay within 3-5 days after inspection,Courier delivery failure or lost package,Disputed payment or unauthorized charge,seed
+POL-UK-01,urbankicks,return,14,Unworn outdoor clean soles original tags and undamaged box,Manufacturer sole separation or defect,Disputed charges or rude delivery courier,seed
+POL-UK-02,urbankicks,exchange,14,Unworn condition with tags intact for complimentary size swap,Wrong size delivered by fulfillment team,Repeated out-of-stock exchange request,seed
+POL-UK-03,urbankicks,refund,14,Disbursed electronically within 3-5 days after physical inspection,Damaged goods or lost courier parcel,Credit card double-charge dispute,seed

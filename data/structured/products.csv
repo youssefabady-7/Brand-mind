@@ -1,0 +1,26 @@
+product_id,brand_id,name,category,price_egp,sizes_or_volume,key_ingredients_or_material,in_stock,stock_quantity,description,source
+LUM-P01,lumora,Hydrating Niacinamide 10% Serum,serums,480,30ml,10% Niacinamide + Zinc PCA 1% + Hyaluronic Acid,True,85,Barrier-repairing and pore-refining facial serum designed for sensitive skin.,seed
+LUM-P02,lumora,5-Ceramide Barrier Repair Cream,moisturizers,520,50ml,Ceramide NP AP EOP + Squalane + Centella,True,42,Rich lipid recovery moisturizer that locks hydration and repairs compromised skin barriers.,seed
+LUM-P03,lumora,Gentle Amino Gel Cleanser,cleansers,340,150ml,Amino Acid Surfactants + Panthenol + Allantoin,True,110,Non-stripping low-pH foaming gel cleanser suitable for morning and evening routines.,seed
+LUM-P04,lumora,Centella Calming Relief Mist,toners,360,100ml,Centella Asiatica 85% + Green Tea Extract,True,60,Soothing multi-action botanical facial mist to calm redness and irritation.,seed
+LUM-P05,lumora,Pure Ascorbic Acid 15% Vitamin C Serum,serums,650,30ml,15% L-Ascorbic Acid + Ferulic Acid + Vitamin E,True,30,High-potency antioxidant glow serum to fade hyperpigmentation and sun damage.,seed
+LUM-P06,lumora,Mineral Sheer Shield Sunscreen SPF 50+,sunscreen,490,50ml,Zinc Oxide 18% + Titanium Dioxide + Niacinamide,True,95,Broad-spectrum non-nano physical SPF with zero white cast and velvety matte finish.,seed
+LUM-P07,lumora,Gentle AHA 7% + BHA 1% Exfoliating Toner,toners,420,120ml,Glycolic Acid + Salicylic Acid + Aloe Vera,True,50,Weekly chemical exfoliant to smooth texture and unclog persistent micro-comedones.,seed
+LUM-P08,lumora,Squalane + Peptide Plumping Eye Cream,eye_care,390,15ml,Matrixyl 3000 + Olive Squalane + Caffeine,True,25,Targeted eye treatment reducing dark circles and fine dehydration lines.,seed
+LUM-P09,lumora,Hydro-Plump 2% Hyaluronic Acid Serum,serums,460,30ml,Multi-molecular Hyaluronic Acid + Provitamin B5,True,70,Multi-depth hydration booster delivering instant moisture to parched skin cells.,seed
+LUM-P10,lumora,Calming Oat Barrier Recovery Balm,treatments,380,40ml,Colloidal Oatmeal 2% + Beta-Glucan + Shea Butter,True,18,Emergency rescue balm for severely cracked, wind-burned, or sensitized skin.,seed
+LUM-P11,lumora,Overnight Retinol 0.3% Renewal Emulsion,treatments,580,30ml,Encapsulated Retinol 0.3% + Bakuchiol + Ceramides,True,35,Gentle time-release retinol emulsion to combat early fine lines without flaking.,seed
+LUM-P12,lumora,Clarifying Salicylic Acid 2% Spot Gel,treatments,290,15ml,Encapsulated Salicylic Acid 2% + Tea Tree Water,True,48,Fast-acting targeted spot gel that diminishes active blemishes overnight.,seed
+LUM-P13,lumora,Lumora Discovery Sample Set,sample_kits,250,5x5ml,Mixed Mini Formulations,True,40,Deluxe travel trial kit. Non-returnable trial pack for first-time ritual discovery.,seed
+LUM-P14,lumora,Ultra-Hydrating Sheet Mask (Pack of 5),masks,320,5 sheets,Bio-cellulose + Snow Mushroom Extract,True,65,Cooling sheet masks drenched in barrier-replenishing serum for weekly hydration boosts.,seed
+LUM-P15,lumora,Lumora Digital Gift Card 500 EGP,gift_cards,500,Digital Code,E-voucher,True,999,Redeemable across all Lumora skincare collections. Non-returnable.,seed
+UK-P01,urbankicks,Apex Retro 85 High Sneaker,sneakers,3200,EU 40-45,Full-grain Italian Leather + Gum Rubber Sole,True,22,Classic high-top basketball silhouette remastered with modern street cushioning.,seed
+UK-P02,urbankicks,StreetRunner V2 Low Sneaker,sneakers,2650,EU 39-44,Breathable Mesh + Suede Overlays + EVA Midsole,True,34,Lightweight daily commuter sneaker engineered for Cairo street terrain.,seed
+UK-P03,urbankicks,Shadow Drip Oversized Heavyweight Hoodie,apparel,1450,S-XXL,100% French Terry Cotton 480 GSM,True,50,Boxy dropped-shoulder silhouette with minimalist tonal 3D chest embroidery.,seed
+UK-P04,urbankicks,Tactical Modular Cargo Pants,apparel,1250,30-38,Heavy Ripstop Cotton + YKK Hardware,True,40,Functional utility pants with 6 deep ergonomic zip pockets and adjustable ankle cuffs.,seed
+UK-P05,urbankicks,Cairo Underground Graphic Tee,apparel,650,S-XL,Combed Egyptian Cotton 240 GSM,True,75,Acid-wash vintage graphic tee celebrating downtown Cairo street culture.,seed
+UK-P06,urbankicks,Velocity Tech Low Sneaker,sneakers,2900,EU 41-46,Reflective 3M Upper + Chunky Sculpted Sole,True,15,Futuristic chunky aesthetic sneaker with high-traction street tread.,seed
+UK-P07,urbankicks,Signature 5-Panel Street Cap,accessories,450,One Size,Water-repellent Nylon + Brass Clip Closure,True,60,Low-profile moisture-wicking street cap with subtle matte front logo patch.,seed
+UK-P08,urbankicks,Urban Crew Cushioned Socks (Pack of 3),accessories,280,One Size,Combed Cotton + Elastane,True,80,Heavy-cushion ribbed athletic crew socks. Non-returnable for hygiene reasons.,seed
+UK-P09,urbankicks,Sneaker Shield Premium Cleaning Kit,accessories,380,150ml,Biodegradable Coconut Oil Cleaning Solution + Horsehair Brush,True,45,Professional sneaker maintenance kit safe for leather, suede, and nubuck.,seed
+UK-P10,urbankicks,HyperWave Slide Sandal,footwear,950,EU 40-45,Molded High-Density EVA Foam,True,30,Ergonomic poolside and post-game recovery slides with arch support.,seed
