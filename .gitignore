@@ -43,6 +43,7 @@ htmlcov/
 
 # Local Vector DB & Persistent Stores
 data/chroma_db/
+data/logs/*.jsonl
 *.db
 *.sqlite3
 
