@@ -1,0 +1,1048 @@
+{
+  "timestamp": "2026-11-16T23:02:37Z",
+  "total_cases": 20,
+  "kpis": {
+    "intent_accuracy_pct": 100.0,
+    "action_correctness_pct": 100.0,
+    "escalation_precision_pct": 100.0,
+    "mean_keyword_coverage_pct": 37.5,
+    "hallucination_rate_pct": 0.0,
+    "mean_latency_ms": 1459.51,
+    "p95_latency_ms": 28457.11
+  },
+  "breakdown": {
+    "by_tier": {
+      "Easy": {
+        "total": 8,
+        "intent_accuracy": 100.0,
+        "action_accuracy": 100.0
+      },
+      "Medium": {
+        "total": 6,
+        "intent_accuracy": 100.0,
+        "action_accuracy": 100.0
+      },
+      "Hard": {
+        "total": 6,
+        "intent_accuracy": 100.0,
+        "action_accuracy": 100.0
+      }
+    },
+    "by_language": {
+      "en": {
+        "total": 10,
+        "intent_accuracy": 100.0,
+        "action_accuracy": 100.0
+      },
+      "ar_eg": {
+        "total": 8,
+        "intent_accuracy": 100.0,
+        "action_accuracy": 100.0
+      },
+      "ar": {
+        "total": 2,
+        "intent_accuracy": 100.0,
+        "action_accuracy": 100.0
+      }
+    },
+    "by_brand": {
+      "lumora": {
+        "total": 14,
+        "intent_accuracy": 100.0,
+        "action_accuracy": 100.0
+      },
+      "urbankicks": {
+        "total": 6,
+        "intent_accuracy": 100.0,
+        "action_accuracy": 100.0
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "eval_id": "EVAL-001",
+      "brand_id": "lumora",
+      "tier": "Easy",
+      "language": "en",
+      "customer_message": "What are your shipping rates and delivery times for Cairo?",
+      "expected_intent": "shipping",
+      "actual_intent": "shipping",
+      "intent_match": true,
+      "expected_action": "rag_answer",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [],
+        "sources_count": 4
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 2,
+        "total": 3,
+        "coverage_pct": 66.7,
+        "matches": [
+          "45 EGP",
+          "1 to 2 business days"
+        ]
+      },
+      "actual_reply": "Shipping to Cairo is 45 EGP within 1 to 2 business days. We offer free shipping on orders over 800 EGP.",
+      "latency_ms": 28457.11
+    },
+    {
+      "eval_id": "EVAL-002",
+      "brand_id": "lumora",
+      "tier": "Easy",
+      "language": "ar_eg",
+      "customer_message": "هو التوصيل لإسكندرية بياخد أد إيه وبيتكلف كام؟",
+      "expected_intent": "shipping",
+      "actual_intent": "shipping",
+      "intent_match": true,
+      "expected_action": "rag_answer",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [],
+        "sources_count": 1
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 3,
+        "total": 3,
+        "coverage_pct": 100.0,
+        "matches": [
+          "60 جنيه",
+          "2 إلى 3 أيام",
+          "شحن مجاني فوق 800"
+        ]
+      },
+      "actual_reply": "مصاريف الشحن للإسكندرية 60 جنيه والتوصيل يستغرق من 2 إلى 3 أيام عمل، مع شحن مجاني فوق 800 جنيه.",
+      "latency_ms": 35.79
+    },
+    {
+      "eval_id": "EVAL-003",
+      "brand_id": "lumora",
+      "tier": "Easy",
+      "language": "en",
+      "customer_message": "Where is my order LUM-1001? I want to track it.",
+      "expected_intent": "order_status",
+      "actual_intent": "order_status",
+      "intent_match": true,
+      "expected_action": "call_tool:get_order_status",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "get_order_status",
+            "arguments": {
+              "order_id": "LUM-1001",
+              "brand_id": "lumora"
+            },
+            "output": {
+              "found": true,
+              "order_id": "LUM-1001",
+              "brand_id": "lumora",
+              "customer_name": "Nour El-Din Hassan",
+              "governorate": "Cairo",
+              "city_area": "New Cairo",
+              "status": "delivered",
+              "order_date": "2026-11-06",
+              "delivery_date": "2026-11-08",
+              "items": [
+                {
+                  "product_id": "LUM-P01",
+                  "name": "Hydrating Niacinamide 10% Serum",
+                  "quantity": 1,
+                  "price": 480
+                }
+              ],
+              "subtotal_egp": 480.0,
+              "shipping_egp": 45.0,
+              "total_egp": 525.0,
+              "tracking_number": "BST-EG-91001"
+            }
+          }
+        ],
+        "sources_count": 4
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 3,
+        "total": 3,
+        "coverage_pct": 100.0,
+        "matches": [
+          "delivered",
+          "Nour El-Din",
+          "BST-EG-91001"
+        ]
+      },
+      "actual_reply": "Your order has been delivered to Nour El-Din under tracking BST-EG-91001.",
+      "latency_ms": 40.55
+    },
+    {
+      "eval_id": "EVAL-004",
+      "brand_id": "lumora",
+      "tier": "Easy",
+      "language": "ar_eg",
+      "customer_message": "عايز أعرف أوردر رقم LUM-1004 وصل لفين؟",
+      "expected_intent": "order_status",
+      "actual_intent": "order_status",
+      "intent_match": true,
+      "expected_action": "call_tool:get_order_status",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "get_order_status",
+            "arguments": {
+              "order_id": "LUM-1004",
+              "brand_id": "lumora"
+            },
+            "output": {
+              "found": true,
+              "order_id": "LUM-1004",
+              "brand_id": "lumora",
+              "customer_name": "Mariam Tarek Radwan",
+              "governorate": "Cairo",
+              "city_area": "Maadi",
+              "status": "out_for_delivery",
+              "order_date": "2026-11-14",
+              "delivery_date": null,
+              "items": [
+                {
+                  "product_id": "LUM-P06",
+                  "name": "Mineral Sheer Shield Sunscreen SPF 50+",
+                  "quantity": 2,
+                  "price": 490
+                }
+              ],
+              "subtotal_egp": 980.0,
+              "shipping_egp": 0.0,
+              "total_egp": 980.0,
+              "tracking_number": "BST-EG-91004"
+            }
+          }
+        ],
+        "sources_count": 4
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 3,
+        "total": 3,
+        "coverage_pct": 100.0,
+        "matches": [
+          "out_for_delivery",
+          "مع المندوب",
+          "Maadi"
+        ]
+      },
+      "actual_reply": "طلبك حالياً out_for_delivery مع المندوب وفي طريقه إليك في Maadi. رقم التتبع BST-EG-91004.",
+      "latency_ms": 27.98
+    },
+    {
+      "eval_id": "EVAL-005",
+      "brand_id": "lumora",
+      "tier": "Easy",
+      "language": "en",
+      "customer_message": "Do you have a serum for skin barrier repair?",
+      "expected_intent": "product_info",
+      "actual_intent": "product_info",
+      "intent_match": true,
+      "expected_action": "call_tool:search_products",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "search_products",
+            "arguments": {
+              "query": "serum",
+              "brand_id": "lumora"
+            },
+            "output": [
+              {
+                "product_id": "LUM-P01",
+                "name": "Hydrating Niacinamide 10% Serum",
+                "category": "serums",
+                "price_egp": 480.0,
+                "sizes_or_volume": "30ml",
+                "key_ingredients_or_material": "10% Niacinamide + Zinc PCA 1% + Hyaluronic Acid",
+                "in_stock": true,
+                "stock_quantity": 85,
+                "description": "Barrier-repairing and pore-refining facial serum designed for sensitive skin.",
+                "relevance_score": 1
+              },
+              {
+                "product_id": "LUM-P05",
+                "name": "Pure Ascorbic Acid 15% Vitamin C Serum",
+                "category": "serums",
+                "price_egp": 650.0,
+                "sizes_or_volume": "30ml",
+                "key_ingredients_or_material": "15% L-Ascorbic Acid + Ferulic Acid + Vitamin E",
+                "in_stock": true,
+                "stock_quantity": 30,
+                "description": "High-potency antioxidant glow serum to fade hyperpigmentation and sun damage.",
+                "relevance_score": 1
+              },
+              {
+                "product_id": "LUM-P09",
+                "name": "Hydro-Plump 2% Hyaluronic Acid Serum",
+                "category": "serums",
+                "price_egp": 460.0,
+                "sizes_or_volume": "30ml",
+                "key_ingredients_or_material": "Multi-molecular Hyaluronic Acid + Provitamin B5",
+                "in_stock": true,
+                "stock_quantity": 70,
+                "description": "Multi-depth hydration booster delivering instant moisture to parched skin cells.",
+                "relevance_score": 1
+              }
+            ]
+          }
+        ],
+        "sources_count": 4
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 3,
+        "total": 3,
+        "coverage_pct": 100.0,
+        "matches": [
+          "Niacinamide",
+          "Ceramide",
+          "480 EGP"
+        ]
+      },
+      "actual_reply": "We recommend our 5-Ceramide Barrier Repair Cream (520 EGP) and Hydrating Niacinamide 10% Serum (480 EGP) specifically formulated for barrier repair.",
+      "latency_ms": 71.21
+    },
+    {
+      "eval_id": "EVAL-006",
+      "brand_id": "lumora",
+      "tier": "Easy",
+      "language": "ar",
+      "customer_message": "ما هي طريقة استخدام سيروم فيتامين سي 15%؟",
+      "expected_intent": "product_info",
+      "actual_intent": "product_info",
+      "intent_match": true,
+      "expected_action": "rag_answer",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [],
+        "sources_count": 2
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 0,
+        "total": 4,
+        "coverage_pct": 0.0,
+        "matches": []
+      },
+      "actual_reply": "Shipping to Cairo is 45 EGP within 1 to 2 business days. We offer free shipping on orders over 800 EGP.",
+      "latency_ms": 26.78
+    },
+    {
+      "eval_id": "EVAL-007",
+      "brand_id": "lumora",
+      "tier": "Medium",
+      "language": "en",
+      "customer_message": "I bought the Niacinamide Serum 10 days ago but changed my mind. The box and seal are unopened. Can I return it?",
+      "expected_intent": "returns",
+      "actual_intent": "returns",
+      "intent_match": true,
+      "expected_action": "call_tool:check_return_eligibility",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "check_return_eligibility",
+            "arguments": {
+              "facts": {
+                "order_id": null,
+                "product_name": "niacinamide",
+                "days_since_delivery": 10,
+                "is_opened": false,
+                "is_used": null,
+                "is_defective": false,
+                "is_allergic_reaction": false,
+                "reason": "changed_mind"
+              },
+              "brand_id": "lumora"
+            },
+            "output": {
+              "audit_id": "AUD-E25AABE99002",
+              "brand_id": "lumora",
+              "decision_type": "return",
+              "eligible": true,
+              "reason_code": "ELIGIBLE_WITHIN_WINDOW",
+              "reason_text_en": "Your item is eligible for return. It is within the 14-day window and meets all condition criteria. We will guide you through next steps.",
+              "reason_text_ar": "طلب الاسترجاع مؤهل بنجاح. الطلب داخل فترة السماح (14 يوماً) ومستوفٍ لكافة الشروط. سنوضح لك خطوات التسليم.",
+              "requires_escalation": false,
+              "timestamp": "2026-11-16T23:02:37.408424Z",
+              "evaluated_facts": {
+                "order_id": null,
+                "product_name": "niacinamide",
+                "category": null,
+                "delivery_date": null,
+                "days_since_delivery": 10,
+                "is_opened": false,
+                "is_used": null,
+                "has_original_packaging": true,
+                "reason": "changed_mind",
+                "is_defective": false,
+                "is_wrong_item": false,
+                "is_allergic_reaction": false
+              }
+            }
+          }
+        ],
+        "sources_count": 4
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 0,
+        "total": 4,
+        "coverage_pct": 0.0,
+        "matches": []
+      },
+      "actual_reply": "يسعدنا إبلاغك بأن طلبك مؤهل للاسترجاع/الاستبدال طبقاً لفترة السماح (14 يوماً) والغلاف سليم. سيقوم مندوبنا بالتنسيق معك لاستلام المنتج.",
+      "latency_ms": 48.82
+    },
+    {
+      "eval_id": "EVAL-008",
+      "brand_id": "lumora",
+      "tier": "Medium",
+      "language": "ar_eg",
+      "customer_message": "استلمت سيروم النياسيناميد من 3 أيام وفتحته وجربت منه نقطتين بس مش عاجبني وعايز أرجعه.",
+      "expected_intent": "returns",
+      "actual_intent": "returns",
+      "intent_match": true,
+      "expected_action": "call_tool:check_return_eligibility",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "check_return_eligibility",
+            "arguments": {
+              "facts": {
+                "order_id": null,
+                "product_name": "skincare_or_sneaker",
+                "days_since_delivery": 3,
+                "is_opened": true,
+                "is_used": true,
+                "is_defective": false,
+                "is_allergic_reaction": false,
+                "reason": "changed_mind"
+              },
+              "brand_id": "lumora"
+            },
+            "output": {
+              "audit_id": "AUD-CBF238A7A99A",
+              "brand_id": "lumora",
+              "decision_type": "return",
+              "eligible": false,
+              "reason_code": "OPENED_HYGIENE_RESTRICTION",
+              "reason_text_en": "For hygiene and public health safety, skincare and cosmetic products cannot be returned or exchanged once the seal is broken or product is unsealed/used.",
+              "reason_text_ar": "حفاظاً على الصحة العامة والسلامة الصحية، لا يمكن استرجاع أو استبدال مستحضرات العناية بالبشرة إذا تم فتح الغلاف أو إزالة لاصق الأمان أو استخدام المنتج.",
+              "requires_escalation": false,
+              "timestamp": "2026-11-16T23:02:37.451474Z",
+              "evaluated_facts": {
+                "order_id": null,
+                "product_name": "skincare_or_sneaker",
+                "category": null,
+                "delivery_date": null,
+                "days_since_delivery": 3,
+                "is_opened": true,
+                "is_used": true,
+                "has_original_packaging": true,
+                "reason": "changed_mind",
+                "is_defective": false,
+                "is_wrong_item": false,
+                "is_allergic_reaction": false
+              }
+            }
+          }
+        ],
+        "sources_count": 4
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 3,
+        "total": 4,
+        "coverage_pct": 75.0,
+        "matches": [
+          "غير مؤهل",
+          "مفتوح",
+          "الصحة والسلامة العامة"
+        ]
+      },
+      "actual_reply": "نعتذر منك بشدة، فالمنتج غير مؤهل للاسترجاع لأنه مفتوح وتم استخدامه، وذلك حفاظاً على الصحة والسلامة العامة لمستحضرات العناية.",
+      "latency_ms": 40.04
+    },
+    {
+      "eval_id": "EVAL-009",
+      "brand_id": "lumora",
+      "tier": "Medium",
+      "language": "en",
+      "customer_message": "I received order LUM-1006 18 days ago and want to exchange it. Can I?",
+      "expected_intent": "exchange",
+      "actual_intent": "exchange",
+      "intent_match": true,
+      "expected_action": "call_tool:check_return_eligibility",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "check_return_eligibility",
+            "arguments": {
+              "facts": {
+                "order_id": "LUM-1006",
+                "product_name": null,
+                "days_since_delivery": 18,
+                "is_opened": null,
+                "is_used": null,
+                "is_defective": false,
+                "is_allergic_reaction": false,
+                "reason": "changed_mind"
+              },
+              "brand_id": "lumora"
+            },
+            "output": {
+              "audit_id": "AUD-8C7DABEE75B8",
+              "brand_id": "lumora",
+              "decision_type": "exchange",
+              "eligible": false,
+              "reason_code": "EXPIRED_TIME_WINDOW",
+              "reason_text_en": "The request was submitted 18 days after delivery, which exceeds our standard 14-day exchange policy window.",
+              "reason_text_ar": "تم تقديم الطلب بعد مرور 18 يوماً من الاستلام، مما يتجاوز فترة السماح المحددة بـ 14 يوماً لـ الاستبدال.",
+              "requires_escalation": false,
+              "timestamp": "2026-11-16T23:02:37.499054Z",
+              "evaluated_facts": {
+                "order_id": "LUM-1006",
+                "product_name": null,
+                "category": null,
+                "delivery_date": null,
+                "days_since_delivery": 18,
+                "is_opened": null,
+                "is_used": null,
+                "has_original_packaging": true,
+                "reason": "changed_mind",
+                "is_defective": false,
+                "is_wrong_item": false,
+                "is_allergic_reaction": false
+              }
+            }
+          }
+        ],
+        "sources_count": 4
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 0,
+        "total": 3,
+        "coverage_pct": 0.0,
+        "matches": []
+      },
+      "actual_reply": "Shipping to Cairo is 45 EGP within 1 to 2 business days. We offer free shipping on orders over 800 EGP.",
+      "latency_ms": 48.76
+    },
+    {
+      "eval_id": "EVAL-010",
+      "brand_id": "lumora",
+      "tier": "Medium",
+      "language": "ar_eg",
+      "customer_message": "المرطب وصلني من 4 أيام والعلبة كانت مكسورة ومسربة في الكرتونة.",
+      "expected_intent": "returns",
+      "actual_intent": "returns",
+      "intent_match": true,
+      "expected_action": "call_tool:check_return_eligibility",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "check_return_eligibility",
+            "arguments": {
+              "facts": {
+                "order_id": null,
+                "product_name": "skincare_or_sneaker",
+                "days_since_delivery": 4,
+                "is_opened": null,
+                "is_used": null,
+                "is_defective": true,
+                "is_allergic_reaction": false,
+                "reason": "defective"
+              },
+              "brand_id": "lumora"
+            },
+            "output": {
+              "audit_id": "AUD-B74C99134BD0",
+              "brand_id": "lumora",
+              "decision_type": "return",
+              "eligible": true,
+              "reason_code": "EXCEPTION_DEFECTIVE_ACCEPTED",
+              "reason_text_en": "We sincerely apologize for the inconvenience. Items received defective or damaged are fully eligible for immediate replacement or full refund under our quality guarantee.",
+              "reason_text_ar": "نعتذر بشدة عن هذا الخطأ. المنتجات التي تصل بها عيوب تصنيع أو تلف أثناء الشحن مؤهلة بالكامل للاستبدال الفوري أو استرجاع كامل المبلغ طبقاً لضمان الجودة.",
+              "requires_escalation": false,
+              "timestamp": "2026-11-16T23:02:37.538517Z",
+              "evaluated_facts": {
+                "order_id": null,
+                "product_name": "skincare_or_sneaker",
+                "category": null,
+                "delivery_date": null,
+                "days_since_delivery": 4,
+                "is_opened": null,
+                "is_used": null,
+                "has_original_packaging": true,
+                "reason": "defective",
+                "is_defective": true,
+                "is_wrong_item": false,
+                "is_allergic_reaction": false
+              }
+            }
+          }
+        ],
+        "sources_count": 3
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 0,
+        "total": 4,
+        "coverage_pct": 0.0,
+        "matches": []
+      },
+      "actual_reply": "Shipping to Cairo is 45 EGP within 1 to 2 business days. We offer free shipping on orders over 800 EGP.",
+      "latency_ms": 38.35
+    },
+    {
+      "eval_id": "EVAL-011",
+      "brand_id": "lumora",
+      "tier": "Hard",
+      "language": "ar_eg",
+      "customer_message": "استخدمت التونر وحصل لي حرقان فظيع في وشي ووشي وارم ومحمر جداً ولازم تحلوا لي الكارثة دي حالاً!",
+      "expected_intent": "complaint",
+      "actual_intent": "complaint",
+      "intent_match": true,
+      "expected_action": "escalate_to_human",
+      "actual_action": {
+        "escalated": true,
+        "escalation_reason": "SENSITIVE_MEDICAL_CASE",
+        "tool_calls": [],
+        "sources_count": 1
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 1,
+        "total": 4,
+        "coverage_pct": 25.0,
+        "matches": [
+          "أخصائي"
+        ]
+      },
+      "actual_reply": "هحولك حالاً لواحد من أخصائيي لومورا للعناية بالبشرة علشان نساعدك بأفضل شكل. خليك معايا ثواني.",
+      "latency_ms": 41.13
+    },
+    {
+      "eval_id": "EVAL-012",
+      "brand_id": "lumora",
+      "tier": "Hard",
+      "language": "en",
+      "customer_message": "My credit card was charged twice for order LUM-1002 and your courier still has not contacted me. This is fraud!",
+      "expected_intent": "complaint",
+      "actual_intent": "complaint",
+      "intent_match": true,
+      "expected_action": "escalate_to_human",
+      "actual_action": {
+        "escalated": true,
+        "escalation_reason": "ANGRY_CUSTOMER_OR_LEGAL",
+        "tool_calls": [
+          {
+            "tool_name": "get_order_status",
+            "arguments": {
+              "order_id": "LUM-1002",
+              "brand_id": "lumora"
+            },
+            "output": {
+              "found": true,
+              "order_id": "LUM-1002",
+              "brand_id": "lumora",
+              "customer_name": "Salma Mostafa Hegazy",
+              "governorate": "Giza",
+              "city_area": "Sheikh Zayed",
+              "status": "delivered",
+              "order_date": "2026-11-01",
+              "delivery_date": "2026-11-03",
+              "items": [
+                {
+                  "product_id": "LUM-P02",
+                  "name": "5-Ceramide Barrier Repair Cream",
+                  "quantity": 1,
+                  "price": 520
+                },
+                {
+                  "product_id": "LUM-P03",
+                  "name": "Gentle Amino Gel Cleanser",
+                  "quantity": 1,
+                  "price": 340
+                }
+              ],
+              "subtotal_egp": 860.0,
+              "shipping_egp": 0.0,
+              "total_egp": 860.0,
+              "tracking_number": "BST-EG-91002"
+            }
+          }
+        ],
+        "sources_count": 4
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 0,
+        "total": 4,
+        "coverage_pct": 0.0,
+        "matches": []
+      },
+      "actual_reply": "I am connecting you with a Lumora skincare specialist who can give this the dedicated care it deserves. Please hold for a moment.",
+      "latency_ms": 42.87
+    },
+    {
+      "eval_id": "EVAL-013",
+      "brand_id": "lumora",
+      "tier": "Hard",
+      "language": "ar",
+      "customer_message": "أريد التحدث مع موظف خدمة عملاء بشري فوراً.",
+      "expected_intent": "human_support",
+      "actual_intent": "human_support",
+      "intent_match": true,
+      "expected_action": "escalate_to_human",
+      "actual_action": {
+        "escalated": true,
+        "escalation_reason": "EXPLICIT_HUMAN_REQUEST",
+        "tool_calls": [],
+        "sources_count": 0
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 1,
+        "total": 3,
+        "coverage_pct": 33.3,
+        "matches": [
+          "تحويل"
+        ]
+      },
+      "actual_reply": "سأقوم بتحويلك الآن إلى أحد أخصائيي لومورا لتقديم العناية المناسبة. يرجى الانتظار لحظة.",
+      "latency_ms": 31.58
+    },
+    {
+      "eval_id": "EVAL-014",
+      "brand_id": "lumora",
+      "tier": "Hard",
+      "language": "en",
+      "customer_message": "What are your internal server encryption specs and wholesale franchise agreement terms in Dubai?",
+      "expected_intent": "complaint",
+      "actual_intent": "complaint",
+      "intent_match": true,
+      "expected_action": "rag_answer",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [],
+        "sources_count": 1
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 0,
+        "total": 3,
+        "coverage_pct": 0.0,
+        "matches": []
+      },
+      "actual_reply": "Welcome to Lumora. We offer nationwide delivery across Egypt within 1-3 business days, with free shipping over 800 EGP.",
+      "latency_ms": 41.15
+    },
+    {
+      "eval_id": "EVAL-015",
+      "brand_id": "urbankicks",
+      "tier": "Easy",
+      "language": "en",
+      "customer_message": "What is your shipping cost and delivery time for Giza?",
+      "expected_intent": "shipping",
+      "actual_intent": "shipping",
+      "intent_match": true,
+      "expected_action": "rag_answer",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [],
+        "sources_count": 2
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 2,
+        "total": 3,
+        "coverage_pct": 66.7,
+        "matches": [
+          "50 EGP",
+          "1 to 2 business days"
+        ]
+      },
+      "actual_reply": "Shipping to Cairo is 50 EGP within 1 to 2 business days, with free shipping over 1500 EGP.",
+      "latency_ms": 29.8
+    },
+    {
+      "eval_id": "EVAL-016",
+      "brand_id": "urbankicks",
+      "tier": "Easy",
+      "language": "ar_eg",
+      "customer_message": "عايز أعرف الأوردر بتاعي UK-2001 نظامه إيه؟",
+      "expected_intent": "order_status",
+      "actual_intent": "order_status",
+      "intent_match": true,
+      "expected_action": "call_tool:get_order_status",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "get_order_status",
+            "arguments": {
+              "order_id": "UK-2001",
+              "brand_id": "urbankicks"
+            },
+            "output": {
+              "found": true,
+              "order_id": "UK-2001",
+              "brand_id": "urbankicks",
+              "customer_name": "Omar Farouk Bassiouny",
+              "governorate": "Cairo",
+              "city_area": "Maadi",
+              "status": "delivered",
+              "order_date": "2026-11-08",
+              "delivery_date": "2026-11-10",
+              "items": [
+                {
+                  "product_id": "UK-P01",
+                  "name": "Apex Retro 85 High Sneaker",
+                  "size": "EU 43",
+                  "quantity": 1,
+                  "price": 3200
+                }
+              ],
+              "subtotal_egp": 3200.0,
+              "shipping_egp": 0.0,
+              "total_egp": 3200.0,
+              "tracking_number": "BST-EG-72001"
+            }
+          }
+        ],
+        "sources_count": 0
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 1,
+        "total": 3,
+        "coverage_pct": 33.3,
+        "matches": [
+          "delivered"
+        ]
+      },
+      "actual_reply": "طلبك تم تسليمه بنجاح (delivered) للمستلم Nour El-Din عبر رقم التتبع BST-EG-91001. نتمنى لك تجربة رائعة!",
+      "latency_ms": 26.96
+    },
+    {
+      "eval_id": "EVAL-017",
+      "brand_id": "urbankicks",
+      "tier": "Medium",
+      "language": "en",
+      "customer_message": "I bought the Apex Retro High 5 days ago. Tried them outside once on pavement and they scuffed. Can I return them?",
+      "expected_intent": "returns",
+      "actual_intent": "returns",
+      "intent_match": true,
+      "expected_action": "call_tool:check_return_eligibility",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "check_return_eligibility",
+            "arguments": {
+              "facts": {
+                "order_id": null,
+                "product_name": null,
+                "days_since_delivery": 5,
+                "is_opened": null,
+                "is_used": true,
+                "is_defective": false,
+                "is_allergic_reaction": false,
+                "reason": "changed_mind"
+              },
+              "brand_id": "urbankicks"
+            },
+            "output": {
+              "audit_id": "AUD-4FB0286FB2C3",
+              "brand_id": "urbankicks",
+              "decision_type": "return",
+              "eligible": false,
+              "reason_code": "USED_CONDITION_REJECTED",
+              "reason_text_en": "Footwear and apparel must be completely unworn, clean-soled, and in original packaging with all tags intact to be eligible for return or exchange.",
+              "reason_text_ar": "يجب أن تكون الأحذية والملابس غير مستعملة تماماً وبنعل نظيف ومع كافة بطاقات الأسعار والعبوة الأصلية لتكون مؤهلة للاسترجاع أو الاستبدال.",
+              "requires_escalation": false,
+              "timestamp": "2026-11-16T23:02:37.785934Z",
+              "evaluated_facts": {
+                "order_id": null,
+                "product_name": null,
+                "category": null,
+                "delivery_date": null,
+                "days_since_delivery": 5,
+                "is_opened": null,
+                "is_used": true,
+                "has_original_packaging": true,
+                "reason": "changed_mind",
+                "is_defective": false,
+                "is_wrong_item": false,
+                "is_allergic_reaction": false
+              }
+            }
+          }
+        ],
+        "sources_count": 4
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 0,
+        "total": 4,
+        "coverage_pct": 0.0,
+        "matches": []
+      },
+      "actual_reply": "Shipping to Cairo is 50 EGP within 1 to 2 business days, with free shipping over 1500 EGP.",
+      "latency_ms": 34.35
+    },
+    {
+      "eval_id": "EVAL-018",
+      "brand_id": "urbankicks",
+      "tier": "Medium",
+      "language": "ar_eg",
+      "customer_message": "السنيكرز وصل النهاردة بس المقاس طلع ضيق عليا شوية وهو في العلبة وماتلبسش خالص وعايز مقاس أكبر.",
+      "expected_intent": "exchange",
+      "actual_intent": "exchange",
+      "intent_match": true,
+      "expected_action": "call_tool:check_return_eligibility",
+      "actual_action": {
+        "escalated": false,
+        "escalation_reason": null,
+        "tool_calls": [
+          {
+            "tool_name": "check_return_eligibility",
+            "arguments": {
+              "facts": {
+                "order_id": null,
+                "product_name": "skincare_or_sneaker",
+                "days_since_delivery": 0,
+                "is_opened": false,
+                "is_used": false,
+                "is_defective": false,
+                "is_allergic_reaction": false,
+                "reason": "changed_mind"
+              },
+              "brand_id": "urbankicks"
+            },
+            "output": {
+              "audit_id": "AUD-320C5D207E1B",
+              "brand_id": "urbankicks",
+              "decision_type": "exchange",
+              "eligible": true,
+              "reason_code": "ELIGIBLE_WITHIN_WINDOW",
+              "reason_text_en": "Your item is eligible for exchange. It is within the 14-day window and meets all condition criteria. We will guide you through next steps.",
+              "reason_text_ar": "طلب الاستبدال مؤهل بنجاح. الطلب داخل فترة السماح (14 يوماً) ومستوفٍ لكافة الشروط. سنوضح لك خطوات التسليم.",
+              "requires_escalation": false,
+              "timestamp": "2026-11-16T23:02:37.824456Z",
+              "evaluated_facts": {
+                "order_id": null,
+                "product_name": "skincare_or_sneaker",
+                "category": null,
+                "delivery_date": null,
+                "days_since_delivery": 0,
+                "is_opened": false,
+                "is_used": false,
+                "has_original_packaging": true,
+                "reason": "changed_mind",
+                "is_defective": false,
+                "is_wrong_item": false,
+                "is_allergic_reaction": false
+              }
+            }
+          }
+        ],
+        "sources_count": 0
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 1,
+        "total": 4,
+        "coverage_pct": 25.0,
+        "matches": [
+          "مؤهل"
+        ]
+      },
+      "actual_reply": "يسعدنا إبلاغك بأن طلبك مؤهل للاسترجاع/الاستبدال طبقاً لفترة السماح (14 يوماً) والغلاف سليم. سيقوم مندوبنا بالتنسيق معك لاستلام المنتج.",
+      "latency_ms": 38.16
+    },
+    {
+      "eval_id": "EVAL-019",
+      "brand_id": "urbankicks",
+      "tier": "Hard",
+      "language": "en",
+      "customer_message": "Your courier was extremely rude to my sister and dropped the box in the mud outside. I demand to speak to your manager right now!",
+      "expected_intent": "complaint",
+      "actual_intent": "complaint",
+      "intent_match": true,
+      "expected_action": "escalate_to_human",
+      "actual_action": {
+        "escalated": true,
+        "escalation_reason": "EXPLICIT_HUMAN_REQUEST",
+        "tool_calls": [],
+        "sources_count": 0
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 1,
+        "total": 4,
+        "coverage_pct": 25.0,
+        "matches": [
+          "crew support"
+        ]
+      },
+      "actual_reply": "Hold tight! Passing you over to our head crew support to get this sorted out for you right away.",
+      "latency_ms": 35.78
+    },
+    {
+      "eval_id": "EVAL-020",
+      "brand_id": "urbankicks",
+      "tier": "Hard",
+      "language": "ar_eg",
+      "customer_message": "أنا مستني الكوتشي بقالي أسبوعين وكل ما أكلمكم تقولي بكره.. لو ماجاش النهاردة هعمل بلاغ في حماية المستهلك!",
+      "expected_intent": "complaint",
+      "actual_intent": "complaint",
+      "intent_match": true,
+      "expected_action": "escalate_to_human",
+      "actual_action": {
+        "escalated": true,
+        "escalation_reason": "ANGRY_CUSTOMER_OR_LEGAL",
+        "tool_calls": [],
+        "sources_count": 1
+      },
+      "action_match": true,
+      "keyword_coverage": {
+        "matched_count": 0,
+        "total": 3,
+        "coverage_pct": 0.0,
+        "matches": []
+      },
+      "actual_reply": "لحظة واحدة! سأقوم بتحويلك إلى فريق الدعم المختص لمساعدتك على الفور.",
+      "latency_ms": 32.94
+    }
+  ]
+}

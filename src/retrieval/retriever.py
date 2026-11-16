@@ -101,14 +101,19 @@ class KnowledgeRetriever:
             query: Customer inquiry text in English or Arabic.
             brand_id: Target brand identifier ('lumora' or 'urbankicks').
             top_k: Max chunks to retrieve (defaults to 4).
-            similarity_threshold: Minimum cosine similarity score (defaults to 0.35).
+            similarity_threshold: Minimum cosine similarity score (defaults to 0.35, adapted to 0.28 for Arabic).
 
         Returns:
             RetrievalResult containing matched chunks or policy silence indication.
         """
         self._init()
         k = top_k or self.default_top_k
-        threshold = similarity_threshold if similarity_threshold is not None else self.default_threshold
+
+        # Dynamic cross-lingual threshold adaptation
+        from src.agents.language import detect_language
+        q_lang = detect_language(query)
+        base_threshold = 0.28 if q_lang in ("ar", "ar_eg") else self.default_threshold
+        threshold = similarity_threshold if similarity_threshold is not None else base_threshold
 
         clean_query = query.strip()
         query_embedding = self._model.encode(clean_query).tolist()

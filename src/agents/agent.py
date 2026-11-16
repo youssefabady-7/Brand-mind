@@ -125,9 +125,9 @@ class BrandMindAgent:
 
         # Tool Route A: Order Status Lookup
         if (
-            nlu_output.intent == CustomerIntent.ORDER_STATUS
-            or nlu_output.tool_needed == "get_order_status"
-            or (resolved_order_id and "order" in clean_msg.lower())
+            (nlu_output.intent == CustomerIntent.ORDER_STATUS or nlu_output.tool_needed == "get_order_status" or (resolved_order_id and "order" in clean_msg.lower()))
+            and nlu_output.intent not in (CustomerIntent.RETURNS, CustomerIntent.EXCHANGE)
+            and nlu_output.tool_needed != "check_return_eligibility"
         ):
             if resolved_order_id:
                 tool_name = "get_order_status"
