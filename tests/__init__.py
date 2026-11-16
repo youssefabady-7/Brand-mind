@@ -1,0 +1,1 @@
+"""BrandMind test suite."""
