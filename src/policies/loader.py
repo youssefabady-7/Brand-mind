@@ -45,3 +45,7 @@ def load_brand_policy(brand_id: str, config_dir: Path = CONFIG_DIR) -> BrandPoli
         allow_defective_exceptions=True,
         allow_wrong_item_exceptions=True,
     )
+
+
+# Backward-compatible alias
+load_policy_for_brand = load_brand_policy
